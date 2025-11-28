@@ -1,0 +1,397 @@
+.pageContainer {
+  padding: 100px 0px;
+  background-color: #ffffff;
+  color: #333;
+  margin-top: 154px;
+}
+
+.figure_type_image {
+  figcaption {
+    margin-top: 0;
+    padding: 8px 0;
+    border: 1px solid #fddbbf;
+    border-radius: 0 0 4px 4px;
+    background-color: #fddbbf;
+    font-size: 16px;
+    text-align: center;
+    color: #f47a1f;
+  }
+}
+
+.blogLayout {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.mainContent {
+  flex: 2;
+  min-width: 0;
+}
+
+.sidebar {
+  flex: 1;
+  position: sticky;
+  top: 2rem;
+}
+
+.category {
+  color: #f47a1f;
+  background-color: #fddbbf;
+  padding: 8px 20px;
+  border-radius: 99px;
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.mainContent h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.intro {
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.button_link:hover {
+   color: #f47a1f;
+}
+.button_link {
+    display: flex;
+    padding: 0rem;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 8px;
+    background-color: transparent;
+    transition: all 300ms ease;
+    color: #f47a1f;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+
+.post_title_wrapper {
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.authorInfo {
+  display: flex;
+  gap: 32px;
+  color: #3f4050;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  font-size: 14.4px;
+}
+
+.coverImage {
+  width: 100%;
+  margin-bottom: 32px;
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+  }
+}
+
+.mainContent h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #314252;
+}
+.mainContent h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #314252;
+}
+
+.mainContent h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #314252;
+}
+
+.mainContent p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #898989;
+}
+
+/* Sidebar */
+.sidebarCard {
+  padding: 24px;
+  margin-bottom: 32px;
+  color: #3f4050;
+  font-size: 18px;
+}
+
+.sidebarCard h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sidebarCard p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.text_size_small {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #898989;
+}
+.text_size_small a:hover {
+  color: #f47a1f;
+}
+
+.text_style_link {
+    text-decoration: underline;
+    font-size: 14px;
+    color: #898989;
+    font-weight: 500;
+    font-style: normal;
+}
+.sidebarCard {
+    margin-top: 32px;
+}
+.sidebarCard h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3f4050;
+    line-height: 1.5;
+}
+.sidebarCard p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #898989;
+    line-height: 1.5;
+}
+.post_free_credit_text {
+    color: #898989;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+.sidebarCard {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #dddde4;
+}
+
+.newsletterForm {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+  input {
+    width: 100%;
+    height: 48px;
+    min-height: auto;
+    margin-bottom: 0rem;
+    border-style: solid none solid solid;
+    border: 1px solid #fddbbf;
+    border-radius: 4px 0 0 4px;
+    background-color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #212529;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+  }
+::placeholder {
+  color: #898989;
+}
+  button {
+    height: 48px;
+    border: 1px solid #f47a1f;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background-color: #f47a1f;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+}
+
+.ctaButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Related Posts */
+.relatedPosts {
+  max-width: 1100px;
+  margin: 64px auto 0;
+  padding-top: 32px;
+  border-top: 1px solid #eee;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.relatedCard {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+  transition: 0.2s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+
+  h4 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 600;
+  }
+
+  .categorySmall {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #6d28d9;
+  }
+
+  .authorSmall {
+    font-size: 0.8rem;
+    color: #777;
+  }
+}
+.imagePlaceholder {
+  margin-bottom: 20px;
+}
+.imagePlaceholder img {
+  border-radius: 10px;
+}
+
+/* Responsive Breakpoints */
+
+/* ≤1200px (Large desktops) */
+@media (max-width: 1200px) {
+  .blogLayout {
+    gap: 32px;
+  }
+
+  .mainContent h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+/* ≤992px (Tablets landscape) */
+@media (max-width: 992px) {
+  .pageContainer {
+    margin-top: 100px;
+  }
+
+  .blogLayout {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+}
+
+/* ≤768px (Tablets portrait / small devices) */
+@media (max-width: 768px) {
+  .mainContent h1 {
+    font-size: 32px;
+  }
+
+  .mainContent h2,
+  .mainContent h3,
+  .mainContent h5 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .authorInfo {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+   .mainContent p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* ≤576px (Mobiles) */
+@media (max-width: 576px) {
+  .pageContainer {
+    padding: 60px 0;
+  }
+
+  .mainContent h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .mainContent p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .button_link {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .sidebarCard {
+    padding: 16px;
+  }
+}

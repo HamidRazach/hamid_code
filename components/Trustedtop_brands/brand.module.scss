@@ -1,0 +1,120 @@
+/* trusted logo */
+.trustedtop_brands {
+  padding: 60px 0px;
+  position: relative;    
+}
+
+.head_h5 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+.head_h5 span {
+    color: #f47a1f;
+}
+
+/* Logo container */
+.top_brands_item_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fff;
+  transition: all 0.3s ease-in-out;
+  min-height: 90px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Logo image */
+.top_brands_item_img img {
+  width: 140px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effects */
+.top_brands_item_img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+.top_brands_item_img:hover img {
+  transform: scale(1.05);
+}
+
+/* Colored backgrounds using nth-child for variation */
+.swiper_slide:nth-child(1) .top_brands_item_img {
+  background: #F8F8FB;
+}
+.swiper_slide:nth-child(2) .top_brands_item_img {
+  background: #F8F8FB;
+}
+.swiper_slide:nth-child(3) .top_brands_item_img {
+  background: #F8F8FB;
+}
+.swiper_slide:nth-child(4) .top_brands_item_img {
+  background: #F8F8FB;
+}
+.swiper_slide:nth-child(5) .top_brands_item_img {
+  background: #F8F8FB;
+}
+.swiper_slide:nth-child(6) .top_brands_item_img {
+  background:#F8F8FB;
+}
+.swiper_slide:nth-child(7) .top_brands_item_img {
+  background: #F8F8FB;
+}
+.swiper_slide:nth-child(8) .top_brands_item_img {
+  background: #F8F8FB;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .head_h5 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 992px) {
+  .trustedtop_brands {
+    padding: 40px 0;
+  }
+  .top_brands_item_img {
+    padding: 15px;
+    min-height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head_h5 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  .top_brands_item_img img {
+    width: 120px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .trustedtop_brands {
+    padding: 30px 0;
+  }
+  .head_h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .top_brands_item_img {
+    margin: 5px;
+    padding: 10px;
+  }
+}

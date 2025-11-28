@@ -1,0 +1,125 @@
+.technologyuse {
+    padding: 100px 0px;
+    position: relative;
+}
+.technologyuse {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.technologyuse h2 {
+    color: #314252;
+    font-size: 33px;
+    line-height: 43px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.technologyuse h2 span {
+    color: #f47a1f;
+}
+
+.technologyuse p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #898989;
+}
+.tech_game_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 60px;
+}
+.tech_game_item img {
+        height: 75px;
+        width: auto;
+}
+/* Large Desktop (≥1200px) */
+@media (max-width: 1200px) {
+    .technologyuse {
+        padding: 80px 0;
+    }
+
+    .technologyuse h2 {
+        font-size: 33px;
+        line-height: 43px;
+    }
+}
+
+/* Laptop (≥992px) */
+@media (max-width: 992px) {
+    .technologyuse h2 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .tech_game_main {
+        row-gap: 40px;
+        column-gap: 50px;
+    }
+
+    .tech_game_item img {
+        height: 75px;
+    }
+}
+
+
+/* Tablet Landscape (≥768px) */
+@media (max-width: 768px) {
+    .technologyuse {
+        padding: 80px 0px;
+    }
+    
+    .technologyuse p {
+       font-size: 15px;
+       line-height: 24px;
+    }
+
+    .technologyuse h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .tech_game_main {
+        justify-content: flex-start;
+        column-gap: 40px;
+    }
+
+    .tech_game_item img {
+        height: 70px;
+        width: 70px;
+        object-fit: cover;
+    }
+}
+
+/* Tablet Portrait (≥576px) */
+@media (max-width: 576px) {
+    .technologyuse h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .technologyuse p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .tech_game_item img {
+        height: 65px;
+        width: 65px;
+    }
+}
+
+
+
+

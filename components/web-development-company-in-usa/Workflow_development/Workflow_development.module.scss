@@ -1,0 +1,220 @@
+/* webflow cards css  */
+.workflow_content {
+    padding: 100px 0px;
+    background-color: rgb(249, 249, 249);
+    position: relative;
+    z-index: 0;
+}
+
+.workflow_content h2 {
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-size: 33px;
+    line-height: 43px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.workflow_content h2 span {
+    color: #f47a1f;
+}
+
+.workflow_content p {
+    color: #898989;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.workflow_content .workflow_secion {
+    margin-top: 10px;
+}
+
+.workflow_items {
+    background: #fff;
+    transition: all .3s ease-in;
+    height: 245px;
+    margin-top: 30px;
+    padding: 35px;
+}
+
+
+.item_name {
+    color: #314252;
+    font-style: normal;
+    font-weight: 600;
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.item_name span {
+    color: rgba(49, 66, 82, .3);
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.52px;
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.item_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item_icon svg {
+    height: 35px;
+    width: auto;
+}
+
+.workflow_items p {
+    color: #898989;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.workflow_items:hover {
+    background: #f47a1f;
+    transition: all .3s ease-in;
+}
+
+.workflow_items:hover .item_name {
+    color: #fff;
+}
+
+.workflow_items:hover p {
+    color: #fff;
+}
+
+.workflow_items:hover .item_icon svg path {
+    fill: #fff;
+}
+
+.btn {
+	gap: 10px;
+	line-height: 1;
+	padding: 0 40px;
+	font-size: 16px;
+	overflow: hidden;
+	font-weight: 600;
+	transition: 300ms;
+	position: relative;
+	align-items: center;
+	letter-spacing: 1px;
+	display: inline-flex;
+	color: var(--bs-white);
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--bs-primary);
+	border: 1px solid var(--bs-primary);
+	border-radius: var(--bs-border-radius-pill);
+	.btn_icon {
+		line-height: 1;
+		font-size: 16px;
+	}
+	.btn_label {
+		position: relative;
+		display: inline-block;
+		padding: 23px 0px 21px;
+		transition: transform .4s cubic-bezier(.15,.85,.31,1);
+		&:before {
+			top: 120%;
+			left: 50%;
+			width: 100%;
+			display: block;
+			position: absolute;
+			content: attr(data-text);
+			transform: translateX(-50%);
+		}
+	}
+	&:hover {
+		color: var(--bs-white);
+		transform: translateY(-2px);
+		background-color: var(--bs-primary);
+		border: 1px solid var(--bs-primary);
+		box-shadow: 0 10px 30px 0 rgba(244, 122, 31, 0.102);
+		.btn_label {
+			transform: translateY(-81%);
+		}
+	}
+		&:focus-visible {
+			background-color: var(--bs-primary);
+			border-color: var(--bs-primary);
+			border: 1px solid var(--bs-primary);
+			box-shadow: none;
+		}
+		&:active {
+			background-color: var(--bs-primary) !important;
+			border-color: var(--bs-primary) !important;
+			border: 1px solid var(--bs-primary) !important;
+		}
+}
+
+.workflow_content .workflow_items {
+    max-height: 100%;
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+
+/* responsive css */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .workflow_content {
+        padding: 80px 0px;
+    }
+
+}
+@media (max-width: 992px) {
+    .workflow_content h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+@media (max-width: 768px) {
+    .workflow_content {
+        padding: 50px 0px;
+    }
+    .workflow_content h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .workflow_content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .btn {
+			padding: 0 28px;
+			font-size: 14px;
+
+			.btn_icon {
+				font-size: 14px;
+			}
+
+			.btn_label {
+				padding: 18px 0 16px;
+			}
+	}
+}
+@media (max-width: 480px) {
+    .workflow_content {
+        padding: 40px 0px;
+    }
+    .workflow_content h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .workflow_content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

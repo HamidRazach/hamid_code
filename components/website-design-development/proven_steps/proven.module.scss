@@ -1,0 +1,216 @@
+.laverage_section {
+    padding: 100px 0px;
+    position: relative;
+}
+.laverage_section h2 {
+      font-size: 33px;
+      line-height: 43px;
+      color: #314252;
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      letter-spacing: normal;
+      margin-bottom: 20px;
+}
+.laverage_section p {
+    color: #898989;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+.laverage_section .process_listing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+}
+.laverage_section .process_listing:before {
+    background: #d3d3d3;
+    border-radius: 100px;
+    content: "";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 2px;
+    left: 50%;
+    top: 50px;
+    width: 80%;
+}
+.laverage_section .process_listing .process_item .number {
+    color: rgba(49, 66, 82, .05);
+    font-family: Poppins, sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -.651px;
+    line-height: 100px;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+.laverage_section .process_listing .process_item h6 {
+        font-size: 15px;
+        line-height: 28px;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 700;
+        color: #314252;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+    }
+    .laverage_section .process_listing .process_item p {
+    color: #898989;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 20px;
+}
+
+    .laverage_section .process_listing .process_item .number:after {
+        height: 15px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 15px;
+        background: #f47a1f;
+        border-radius: 100px;
+        content: "";
+        position: absolute;
+}
+
+/* ====== Default (Desktop ≥1200px) ====== */
+/* ====== Large Tablets & Small Laptops (992px–1199px) ====== */
+@media (max-width: 1199px) {
+  .laverage_section {
+    padding: 80px 0;
+  }
+
+  .laverage_section h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+
+  .laverage_section .process_listing:before {
+    width: 85%;
+    top: 45px;
+  }
+
+  .laverage_section .process_listing .process_item .number {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
+
+/* ====== Tablets (768px–992px) ====== */
+@media (max-width: 992px) {
+  .laverage_section {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .laverage_section h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+
+
+  /* Switch process to column */
+  .laverage_section .process_listing {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  /* Remove horizontal line */
+  .laverage_section .process_listing:before {
+    display: none;
+  }
+
+  .laverage_section .process_listing .process_item {
+    margin-bottom: 40px;
+  }
+
+  .laverage_section .process_listing .process_item .number {
+    font-size: 70px;
+    line-height: 70px;
+    margin-bottom: 15px;
+  }
+
+  .laverage_section .process_listing .process_item p {
+    padding: 0 10px;
+  }
+}
+
+
+/* ====== Mobile (≤768px) ====== */
+@media (max-width: 768px) {
+  .laverage_section {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .laverage_section h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .laverage_section p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .laverage_section .process_listing {
+    margin-top: 20px;
+  }
+
+  .laverage_section .process_listing .process_item {
+    margin-bottom: 30px;
+  }
+
+  .laverage_section .process_listing .process_item .number {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .laverage_section .process_listing .process_item h6 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .laverage_section .process_listing .process_item p {
+    padding: 0 5px;
+  }
+}
+
+
+/* ====== Small Mobile (≤480px) ====== */
+@media (max-width: 480px) {
+  .laverage_section h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .laverage_section p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .laverage_section .process_listing .process_item .number {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .laverage_section .process_listing .process_item h6 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+}

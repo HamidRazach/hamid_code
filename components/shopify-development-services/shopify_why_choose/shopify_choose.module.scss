@@ -1,0 +1,175 @@
+    .why_choose {
+        background-color: rgb(249, 249, 249);
+        padding: 100px 0px;
+        position: relative;
+        z-index: 0;
+    }
+    .augment_head h2 {
+        color: #314252;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+        font-size: 34px;
+        line-height: 43px;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+    }
+
+    .augment_head h2 span {
+        color: #f47a1f;
+    }
+    .augment_head p {
+        font-size: 16px;
+        line-height: 30px;
+        color: #898989;
+        font-weight: 400;
+        margin-bottom: 20px;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        text-align: center;
+    }
+    .why_ctext h2 {
+        color: #314252;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+        font-size: 34px;
+        line-height: 43px;
+    }
+    .why_ctext h2 span {
+          color: #f47a1f;
+    }
+    .why_ctext p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #898989;
+        font-weight: 400;
+        margin-bottom: 20px;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+    }
+  .out_s_text ul {
+    padding: 0px;
+  }
+  .out_s_text ul li {
+        padding-left: 20px;
+        position: relative;
+        color: #898989;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    .out_s_text ul li::before {
+        background: #f47a1f;
+        border-radius: 50px;
+        content: "";
+        height: 8px;
+        left: 0;
+        position: absolute;
+        top: 11px;
+        width: 8px;
+    }
+    .why_img img {
+      width: 80%;
+      margin: auto;
+    }
+
+    /* ========== Responsive Breakpoints ========== */
+
+/* Extra large devices (≥1400px) */
+@media (max-width: 1400px) {
+  .augment_head h2,
+  .why_ctext h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+/* Large devices (≥1200px) */
+@media (max-width: 1200px) {
+  .why_choose {
+    padding: 80px 0;
+  }
+  .augment_head h2,
+  .why_ctext h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+/* Medium devices (≥992px) */
+@media (max-width: 992px) {
+  .why_choose {
+    padding: 70px 0;
+  }
+  .augment_head h2,
+  .why_ctext h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+/* Small devices (≥768px) */
+@media (max-width: 768px) {
+  .out_s_text ul li {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .why_choose {
+    padding: 60px 0;
+  }
+  .why_img img {
+    width: 100%;
+  }
+  .augment_head h2,
+  .why_ctext h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .augment_head p,
+  .why_ctext p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* Extra small devices (≥576px) */
+@media (max-width: 576px) {
+  .why_choose {
+    padding: 50px 0;
+  }
+  .augment_head h2,
+  .why_ctext h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .out_s_text ul li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+   .augment_head p,
+  .why_ctext p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+/* Very small devices (<400px) */
+@media (max-width: 400px) {
+  .why_choose {
+    padding: 40px 0;
+  }
+  .augment_head h2,
+  .why_ctext h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

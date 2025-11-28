@@ -1,0 +1,142 @@
+.rewrite_sec {
+    padding: 100px 0px;
+    position: relative;
+    background-color: rgb(249, 249, 249);
+    z-index: 0;
+}
+
+.small {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #f47a1f;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+.rewrite_img h2 {
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #314252;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+.rewrite_img h2 span {
+     color: #f47a1f;
+}
+.rewrite_div p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+.rewrite_div h5 {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #314252;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+  .img_fluid {
+    width: 80%;
+    margin: auto;
+  }
+/* 🔹 Responsive Breakpoints */
+
+/* <= 1200px */
+@media (max-width: 1200px) {
+  .rewrite_sec {
+    padding: 90px 0;
+  }
+
+  .rewrite_img h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .rewrite_div h5 {
+    font-size: 20px;
+  }
+}
+
+/* <= 992px */
+@media (max-width: 992px) {
+  .rewrite_sec {
+    padding: 80px 0;
+  }
+
+  .small {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .rewrite_img h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .rewrite_div h5 {
+    font-size: 19px;
+  }
+
+}
+
+/* <= 768px */
+@media (max-width: 768px) {
+  .img_fluid {
+    width: 100%;
+  }
+  .rewrite_sec {
+    padding: 70px 0;
+    text-align: center; /* Mobile alignment */
+  }
+
+  .small {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .rewrite_img h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .rewrite_div h5 {
+    font-size: 18px;
+  }
+
+  .rewrite_div p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+/* <= 480px */
+@media (max-width: 480px) {
+  .rewrite_sec {
+    padding: 60px 0;
+  }
+
+  .rewrite_img h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .rewrite_div h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+    .rewrite_div p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+}

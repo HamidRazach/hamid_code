@@ -1,0 +1,164 @@
+.measurable_section {
+    padding: 100px 0px;
+    background: rgb(5, 21, 30);
+    position: relative;
+    z-index: 0;
+}
+
+.measurable_section h2 {
+    color: #fff;
+    font-size: 33px;
+    line-height: 43px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+.measurable_section h2 span {
+    color: rgb(244, 122, 31);
+}
+
+.measurable_section p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+.box {
+    height: 100%;
+    background: rgb(4, 30, 45);
+    padding: 30px;
+}
+
+.box h5 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+.box p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+.icon {
+    margin-bottom: 24px;
+}
+
+/* ---------- For 1200px and below ---------- */
+@media (max-width: 1200px) {
+    .measurable_section h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/* ---------- For 992px and below ---------- */
+@media (max-width: 992px) {
+    .measurable_section {
+        padding: 80px 0;
+    }
+
+    .measurable_section h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .box {
+        padding: 25px;
+    }
+
+    .box h5 {
+        font-size: 17px;
+    }
+}
+
+/* ---------- For 768px and below ---------- */
+@media (max-width: 768px) {
+    .measurable_section {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .measurable_section p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+
+    .box {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        margin-bottom: 20px;
+    }
+}
+
+/* ---------- For 576px and below ---------- */
+@media (max-width: 576px) {
+    .measurable_section {
+        padding: 50px 0;
+    }
+
+    .measurable_section h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .box h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .icon {
+        margin-bottom: 15px;
+    }
+}
+
+/* ---------- For 480px and below ---------- */
+@media (max-width: 480px) {
+    .measurable_section p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .measurable_section {
+        padding: 40px 0;
+    }
+
+    .measurable_section h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .box h5 {
+        font-size: 15px;
+    }
+
+    .box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

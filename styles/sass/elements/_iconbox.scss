@@ -1,0 +1,150 @@
+/* 2.17 - Iconbox - Start
+================================================== */
+.iconbox_block {
+	padding: 50px 50px 42px;
+	transition: var(--bs-transition);
+	background-color: var(--bs-white);
+	border-radius: var(--bs-border-radius-sm);
+	box-shadow: 0 1px 2px 0 rgba(174, 191, 210, 0.30);
+	&:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 20px 30px 0 rgba(174, 191, 210, 0.30);
+	}
+	.iconbox_icon {
+		width: 80px;
+		height: 80px;
+		flex: 0 0 auto;
+		margin: 0 0 32px;
+		border-radius: 100%;
+		align-items: center;
+		display: inline-flex;
+		justify-content: center;
+		color: var(--bs-primary);
+		background-color: var(--bs-primary-bg-subtle);
+		img {
+			max-width: 40px;
+		}
+	}
+	.iconbox_title {
+		font-weight: 600;
+	}
+	p {
+		font-size: 16px;
+	    font-weight: 500;
+        line-height: 28px;
+	}
+}
+
+// Layout Icon Left
+.iconbox_block.layout_icon_left {
+	display: flex;
+    align-items: center;
+    padding: 16px 20px 16px 16px;
+	border-radius: var(--bs-border-radius);
+	width: 100%;
+    min-width: 303px;
+	.iconbox_icon {
+		width: 42px;
+		height: 42px;
+		margin: 0 30px 0 0;
+		border-radius: 10px;
+		img {
+			max-width: 22px;
+			height: auto;
+		}
+	}
+	.iconbox_title {
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 12px;
+	}
+}
+
+// Mega Manu Item
+.iconbox_block_2 {
+	display: block;
+	color: var(--bs-dark);
+	padding: 15px 25px 10px 15px;
+	transition: var(--bs-transition);
+	border-radius: var(--bs-border-radius);
+	.icon_title_wrap {
+		gap: 10px;
+		display: flex;
+		margin-bottom: 10px;
+		align-items: flex-start;
+	}
+	.iconbox_icon {
+		width: 30px;
+		height: 30px;
+		flex: 0 0 auto;
+		border-radius: 5px;
+		align-items: center;
+		display: inline-flex;
+		justify-content: center;
+		background-color: rgba(0, 68, 235, 0.1);
+		img {
+			max-width: 16px;
+		}
+	}
+	.iconbox_title {
+		line-height: 1;
+		margin: 6px 0 0;
+		font-size: 20px;
+		font-weight: 600;
+		font-family: 'Axiforma SemiBold';
+	}
+	.badge {
+		margin-top: 5px;
+	}
+	.description {
+		font-size: 15px;
+		color: var(--bs-body-color);
+	}
+	&:hover {
+		background-color: var(--bs-light);
+	}
+}
+/* 2.17 - Iconbox - End
+================================================== */
+
+.drop_menu span.h3 a {
+   color: #314252;
+    font-size: 14px;
+    font-weight: 700;
+	line-height: 1.5;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+.drop_menu span.h3 a:hover {
+	 color: #f47a1f;
+}
+.drop_menu .h3:hover {
+	 color: #f47a1f;
+}
+.drop_menu .h3 {
+	font-size: 14px;
+	font-weight: 800;
+	color: #314252;
+	line-height: 1.5;
+}
+
+.drop_menu .h3 a {
+	color: #314252;
+}
+.drop_menu .anchor_div {
+	 font-size: 14px;
+	 line-height: 24px;
+	 font-weight: 400;
+	 font-style: normal;
+}
+.drop_menu .anchor_div a {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	color: #898989;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+.anchor_div a:hover {
+     color: #f47a1f;
+}

@@ -1,0 +1,166 @@
+.flutter_app_choice {
+  padding: 100px 0;
+  background-color: #f9f9f9;
+
+  h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    span {
+      color: #f47a1f;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #898989;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+  }
+}
+
+.customAccordion {
+  .accordionItem {
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+
+    &.active {
+      border-left: 4px solid #f47a1f;
+    }
+
+    .accordionHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+        color: #314252;
+      }
+
+      .icon {
+        font-size: 20px;
+        color: #f47a1f;
+        transition: transform 0.3s ease;
+      }
+    }
+
+    /* ===== Smooth animation added here ===== */
+    .accordionContent {
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(-5px);
+      transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+
+      p {
+        font-size: 16px;
+        line-height: 30px;
+        color: #898989;
+        font-weight: 400;
+      }
+    }
+
+    &.active {
+      .accordionContent {
+        max-height: 500px; /* enough for content */
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .accordionHeader .icon {
+        transform: rotate(360deg); /* icon rotate */
+      }
+    }
+  }
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 1200px) {
+  .flutter_app_choice {
+    padding: 80px 0;
+
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .flutter_app_choice {
+    padding: 70px 0;
+
+    h2 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 26px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .flutter_app_choice {
+    padding: 60px 0;
+    text-align: center;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 34px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .flutter_app_choice {
+    padding: 50px 0;
+
+    h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  .flutter_app_choice {
+    padding: 40px 0;
+
+    h2 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 22px;
+    }
+  }
+}

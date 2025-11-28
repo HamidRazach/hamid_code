@@ -1,0 +1,127 @@
+/* primary services csrds  */
+.primary_services {
+    padding: 50px 0px;
+}
+
+.service_card {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background: #fcfcfc;
+    border-radius: 25px;
+    padding: 25px;
+    height: 100%;
+    border: none;
+}
+
+.service_card:hover {
+    background-color: #f97316;
+    color: #fff;
+}
+
+.service_card:hover .card_title,
+.service_card:hover .card_text {
+    color: #fff;
+}
+
+.service_card:hover .arrow_btn {
+    background-color: #fff;
+    color: #f97316;
+}
+
+.arrow_btn {
+    border: none;
+    background-color: #fcd9b6;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: #f97316;
+}
+
+#arrow-sine {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.seriveces_listing {
+    margin: 50px 0;
+}
+
+body .example {
+    position: relative;
+}
+
+.seriveces_listing h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+body .example:after {
+    bottom: 0;
+    color: #e2e2e2;
+    content: attr(data-text);
+    font-size: 110px;
+    line-height: 0px;
+    width: 1130px;
+    font-style: normal;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -.03em;
+    opacity: .25;
+    position: absolute;
+    z-index: -1;
+}
+
+.example h2 {
+    font-size: 45px;
+    line-height: 43px;
+    color: #314252;
+    margin-bottom: 80px;
+}
+
+.card_text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: #898989;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.card_title {
+    line-height: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* resposive */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .primary_services {
+        padding: 50px 0px;
+    }
+}
+@media (max-width: 1024px) {
+     .primary_services {
+        padding: 30px 0px;
+    }
+    body .example:after {
+        display: none;
+    }
+      .example h2 {
+        font-size: 30px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+}

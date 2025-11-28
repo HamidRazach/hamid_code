@@ -1,0 +1,206 @@
+.tabing_section {
+  padding: 100px 0px;
+  background: rgb(248, 248, 248);
+  z-index: 0;
+  position: relative;
+}
+
+.h3_head {
+  font-size: 33px;
+  line-height: 43px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.h3_head span {
+    color: #f47a1f;
+}
+
+.description {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #898989;
+}
+
+.custom_nav_tabs {
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.nav_item {
+  margin-bottom: -1px;
+  list-style: none;
+}
+
+.nav_link {
+  font-weight: 600; /* hover aur normal same */
+  font-size: 13px;
+  color: #1e1e1e;
+  border: none !important;
+  background: transparent;
+  padding: 0px 15px;
+  line-height: 48px;
+  position: relative;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* sirf color smoothly change hoga */
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav_link:hover {
+  color: #ff6a00; 
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  font-weight: 600; /* ✅ same rakha hover pr bhi */
+}
+
+.nav_link_active {
+  color: #ff6a00 !important;
+  font-weight: 600;
+}
+
+.nav_link_active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ff6a00;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.tab_content {
+  margin-top: 30px;
+}
+
+.tab_list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tab_list_item {
+  text-align: center;
+  max-width: 120px;
+}
+
+.tab_image {
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.tab_image:hover {
+  transform: scale(1.1);
+}
+
+.text_tabs_web h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* ================== Responsive ================== */
+
+/* Large Tablets (<= 1200px) */
+@media (max-width: 1200px) {
+  .tabing_section {
+    padding: 80px 0px;
+  }
+}
+
+/* Medium Devices (<= 992px) */
+@media (max-width: 992px) {
+  .h3_head {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .nav_link {
+    padding: 0px 12px;
+  }
+  .tab_list_item {
+    max-width: 100px;
+  }
+}
+
+/* Small Tablets & Large Mobiles (<= 768px) */
+@media (max-width: 768px) {
+  .custom_nav_tabs {
+    border-bottom: none;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .tabing_section {
+    padding: 60px 0px;
+  }
+  .h3_head {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .nav_link {
+    padding: 0px 10px;
+  }
+  .tab_list_item {
+    max-width: 90px;
+  }
+}
+
+/* Mobile Devices (<= 576px) */
+@media (max-width: 576px) {
+  .tabing_section {
+    padding: 50px 0px;
+  }
+  .h3_head {
+    font-size: 20px;
+    line-height: 28px;
+  }
+   .description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .nav_link {
+    padding: 0px 8px;
+  }
+  .tab_list_item {
+    max-width: 80px;
+  }
+  .tab_image {
+    padding: 8px;
+  }
+}
+
+/* Extra Small Devices (<= 480px) */
+@media (max-width: 480px) {
+  .tabing_section {
+    padding: 40px 0px;
+  }
+  .nav_link {
+    padding: 0px 6px;
+  }
+  .tab_list_item {
+    max-width: 70px;
+  }
+  .tab_image {
+    padding: 6px;
+  }
+}

@@ -1,0 +1,154 @@
+/* Ensure you have Bootstrap and Bootstrap Icons linked in your project for icons */
+
+.sliderContainer {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-family: sans-serif;
+}
+
+.sliderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.sliderTitle {
+  font-size: 3rem;
+  color: #f0f0f0; /* Light color for dark backgrounds */
+  font-weight: bold;
+  opacity: 0.1; /* As in the image */
+}
+
+.sliderNav {
+  display: flex;
+  gap: 1rem;
+}
+
+.navButton {
+  background: none;
+  border: 1px solid #898989;
+  color: #898989;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.mySwiper {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+.card {
+  background-color: #f8f8fb;
+  padding: 40px 30px 50px;
+  position: relative;
+  border-radius: 12px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  color: #898989;
+  cursor: pointer;
+}
+
+.cardBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  z-index: 1;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.card:hover .cardBackground,
+.card:hover::before {
+  opacity: 1;
+}
+
+.card:hover .cardContent {
+  color: #fff;
+}
+
+.card:hover .cardArrow {
+    color: #f47a1f;
+}
+
+.cardContent {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cardIcon {
+  font-size: 2.5rem;
+  color: #f47a1f;
+  margin-bottom: 1.5rem;
+}
+.cardIcon svg {
+  font-size: 84px;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #314252;
+  font-family: Poppins, sans-serif;
+}
+
+.card:hover .cardTitle {
+  color: #fff;
+}
+
+.card:hover .cardDescription {
+  color: #fff;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  font-weight: 500;
+  font-family: Poppins, sans-serif;
+  color: #898989;
+}
+
+.cardArrow {
+  font-size: 30px;
+  align-self: flex-end;
+  transition: color 0.3s;
+  font-weight: 600;
+}
+

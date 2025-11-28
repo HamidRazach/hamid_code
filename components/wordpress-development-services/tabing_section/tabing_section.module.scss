@@ -1,0 +1,132 @@
+.tabing_section {
+  padding: 100px 0;
+  background: #f8f9fc;
+  position: relative;
+  z-index: 0;
+
+ p {
+  color: #898989;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+  }
+  .h3_head {
+    font-weight: 700;
+    font-size: 35px;
+    color: #314252;
+    line-height: 45px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+  }
+  .h3_head span {
+    color: #f36f21;
+  }
+
+  .nav_tabs {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .nav_item {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: #f36f21;
+    }
+  }
+
+  .active {
+    color: #f36f21;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: #f36f21;
+    }
+  }
+
+  .tab_content {
+    margin-top: 20px;
+  }
+
+  .tab_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 15px;
+      background: #fff;
+      padding: 15px 25px;
+      font-weight: 500;
+      border-radius: 6px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: #f36f21;
+        color: #fff;
+      }
+    }
+  }
+
+  /* ✅ Responsive */
+  @media (max-width: 991px) {
+    .h3_head {
+      font-size: 24px;
+    }
+    .nav_tabs {
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav_tabs {
+      flex-direction: column;
+      border-bottom: none;
+      padding: 15px;
+    }
+    .nav_item {
+      padding: 8px 0;
+    }
+    .tab_list {
+      justify-content: flex-start;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .h3_head {
+      font-size: 20px;
+    }
+    .tab_list {
+      gap: 10px;
+      li {
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+    }
+  }
+}

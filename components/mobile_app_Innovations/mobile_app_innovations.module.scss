@@ -1,0 +1,156 @@
+.spectrum_services {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.spectrum_services h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.spectrum_services h2 span {
+    color: #f47a1f;
+}
+
+.spectrum_services p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #212529;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.spectrum_services .spec_services_box {
+    height: 100%;
+    min-height: 480px;
+    margin-top: 30px;
+    padding: 40px 25px;
+    background: #f9f9f9;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, .1);
+}
+
+.spec_services_head h5 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.spec_services_box p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.spectrum_services .spec_services_img {
+    margin-bottom: 20px;
+}
+
+/* 1200px - 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .spectrum_services {
+        padding: 80px 0px;
+    }
+    .spec_services_box {
+        height: 340px;
+        padding: 35px 20px;
+    }
+}
+
+/* 992px - 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .spectrum_services {
+        padding: 70px 0px;
+    }
+    .spectrum_services h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .spec_services_box {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .spec_services_box p {
+        height: auto;
+    }
+}
+
+/* 768px - 991px (Tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .spectrum_services {
+        padding: 60px 0px;
+    }
+    .spectrum_services h2 {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .spectrum_services p {
+        text-align: center;
+    }
+    .spec_services_box {
+        height: auto;
+        padding: 25px 15px;
+    }
+}
+
+/* 576px - 767px (Large Mobile) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .spectrum_services {
+        padding: 50px 0px;
+    }
+    .spectrum_services h2 {
+        font-size: 26px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .spec_services_box {
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+
+/* Below 575px (Small Mobile) */
+@media (max-width: 575px) {
+    .spectrum_services {
+        padding: 40px 0px;
+    }
+    .spectrum_services h2 {
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .spectrum_services p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .spec_services_box {
+        height: auto;
+        padding: 15px;
+        margin-top: 15px;
+    }
+    .spec_services_head h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .spec_services_box p {
+        font-size: 14px;
+        line-height: 24px;
+        height: auto;
+    }
+}

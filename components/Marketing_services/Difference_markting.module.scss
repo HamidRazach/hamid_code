@@ -1,0 +1,242 @@
+.difference_markting {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.difference_markting h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: rgb(49, 66, 82);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 20px;
+}
+
+.difference_markting h2 span {
+    color: rgb(244, 122, 31);
+}
+
+.difference_markting p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+
+}
+
+.difference_scroll .digital_difference_main .digital_item .digital_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num {
+    width: 50px;
+    height: 50px;
+    font-size: 17px;
+    flex: 0 0 9%;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background: #092c48;
+}
+
+.difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box {
+    padding: 35px 25px;
+    flex: 0 0 91%;
+    max-width: 450px;
+    margin-bottom: 30px;
+    background: #081c28;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box svg {
+    margin-bottom: 10px;
+}
+
+.difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box h5 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+.difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+.difference_markting .difference_scroll {
+    overflow: auto;
+    scrollbar-width: none;
+    position: relative;
+    height: 750px;
+    padding: 0 10px 0 10px;
+}
+
+.difference_markting .difference_scroll .digital_difference_main:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    background: #092c48;
+    z-index: -1;
+    left: 25px;
+    top: 0px;
+}
+
+.difference_markting .difference_scroll .digital_difference_main {
+    position: relative;
+}
+
+.difference_markting .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #092c48;
+    border-radius: 50px;
+    top: 25px;
+    height: 65px;
+    width: 65px;
+}
+/* ---------- Large Screens (default styles you already have) ---------- */
+
+/* ---------- For 1200px and below ---------- */
+@media (max-width: 1200px) {
+    .difference_markting {
+        padding: 80px 0;
+    }
+
+    .difference_markting h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex {
+        column-gap: 20px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box {
+        max-width: 400px;
+        padding: 30px 20px;
+    }
+}
+
+/* ---------- For 992px and below ---------- */
+@media (max-width: 992px) {
+    .difference_markting {
+        padding: 70px 0;
+    }
+
+    .difference_markting h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex {
+        align-items: flex-start;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num {
+        flex: 0 0 auto;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box {
+        flex: 0 0 auto;
+    }
+}
+
+/* ---------- For 768px and below ---------- */
+@media (max-width: 768px) {
+    .difference_markting {
+        padding: 60px 0;
+    }
+
+    .difference_markting h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .difference_markting p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box {
+        padding: 25px 15px;
+    }
+    .difference_markting .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num::after {
+        width: 50px;
+        height: 50px;
+        top: 20px;
+    }
+    .difference_markting .difference_scroll .digital_difference_main:before {
+        left: 20px;
+    }
+}
+
+/* ---------- For 576px and below ---------- */
+@media (max-width: 576px) {
+    .difference_markting {
+        padding: 50px 0;
+    }
+
+    .difference_markting h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex {
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box {
+        padding: 20px;
+    }
+
+    .difference_markting .difference_scroll .digital_difference_main:before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* ---------- For 480px and below ---------- */
+@media (max-width: 480px) {
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .difference_scroll .digital_difference_main .digital_item .digital_flex .digital_num_box {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,234 @@
+.Industry_usa {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 0;
+    background: #314252;
+}
+.Industry_usa h2 {
+        font-size: 33px;
+        line-height: 43px;
+        color: #fff;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+
+}
+.Industry_usa h2 span {
+    color: #f47a1f;
+}
+.Industry_usa p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.btn {
+	gap: 10px;
+	line-height: 1;
+	padding: 0 40px;
+	font-size: 16px;
+	overflow: hidden;
+	font-weight: 600;
+	transition: 300ms;
+	position: relative;
+	align-items: center;
+	letter-spacing: 1px;
+	display: inline-flex;
+	color: var(--bs-white);
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--bs-primary);
+	border: 1px solid var(--bs-primary);
+	border-radius: var(--bs-border-radius-pill);
+	.btn_icon {
+		line-height: 1;
+		font-size: 16px;
+	}
+	.btn_label {
+		position: relative;
+		display: inline-block;
+		padding: 23px 0px 21px;
+		transition: transform .4s cubic-bezier(.15,.85,.31,1);
+		&:before {
+			top: 120%;
+			left: 50%;
+			width: 100%;
+			display: block;
+			position: absolute;
+			content: attr(data-text);
+			transform: translateX(-50%);
+		}
+	}
+	&:hover {
+		color: var(--bs-white);
+		transform: translateY(-2px);
+		background-color: var(--bs-primary);
+		border: 1px solid var(--bs-primary);
+		box-shadow: 0 10px 30px 0 rgba(244, 122, 31, 0.102);
+		.btn_label {
+			transform: translateY(-81%);
+		}
+	}
+		&:focus-visible {
+			background-color: var(--bs-primary);
+			border-color: var(--bs-primary);
+			border: 1px solid var(--bs-primary);
+			box-shadow: none;
+		}
+		&:active {
+			background-color: var(--bs-primary) !important;
+			border-color: var(--bs-primary) !important;
+			border: 1px solid var(--bs-primary) !important;
+		}
+}
+
+.industry_scroll {
+        height: 400px;
+        overflow-y: scroll;
+}
+
+.industry_scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+.industry_scroll h3 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 45px;
+    transition: .2s ease;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+
+/* 📱 Responsive Breakpoints */
+
+/* Large Desktops (1200px and down) */
+@media (max-width: 1200px) {
+    .Industry_usa {
+        padding: 80px 0;
+    }
+    .Industry_usa h2 {
+        letter-spacing: normal;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .industry_scroll h3 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+}
+
+/* Laptops / Tablets Landscape (992px and down) */
+@media (max-width: 992px) {
+    .Industry_usa {
+        padding: 70px 0;
+    }
+    .Industry_usa h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .Industry_usa p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .industry_scroll h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .border_btn {
+        font-size: 13px;
+        height: 38px;
+        line-height: 38px;
+        min-width: 160px;
+        padding: 0 25px;
+    }
+}
+
+/* Tablets Portrait (768px and down) */
+@media (max-width: 768px) {
+    .Industry_usa {
+        padding: 60px 0;
+        text-align: center;
+    }
+    .Industry_usa h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .Industry_usa p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .industry_scroll h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .border_btn {
+        font-size: 13px;
+        min-width: 150px;
+    }
+}
+
+/* Mobile Devices (576px and down) */
+@media (max-width: 576px) {
+    .Industry_usa {
+        padding: 50px 0;
+    }
+    .Industry_usa h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .Industry_usa p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .industry_scroll {
+        height: auto; 
+    }
+    .industry_scroll h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .border_btn {
+        font-size: 12px;
+        height: 36px;
+        line-height: 36px;
+        min-width: 140px;
+        padding: 0 20px;
+    }
+}
+
+/* Extra Small Phones (<480px) */
+@media (max-width: 480px) {
+    .Industry_usa {
+        padding: 40px 0;
+    }
+    .Industry_usa h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Industry_usa p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .industry_scroll h3 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .border_btn {
+        font-size: 11px;
+        height: 34px;
+        line-height: 34px;
+        min-width: 120px;
+        padding: 0 15px;
+    }
+}

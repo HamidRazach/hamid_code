@@ -1,0 +1,224 @@
+.industry_uk_app {
+    padding: 100px 0px;
+    background-image: url('/images/mobile-app-development/high-value-back.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.industry_uk_app h2 {
+    font-size: 33px;
+    line-height: 43px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.industry_uk_app h2 span {
+    color: #f47a1f;
+}
+
+.industry_uk_app p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+.industry_uk_app .industy_uk_main {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.industy_uk_item {
+    align-items: center;
+    border: 1px solid rgba(32, 32, 32, .2);
+    border-radius: 10px;
+    display: flex;
+    flex: 0 0 19%;
+    flex-flow: column;
+    height: 190px;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    background: #001B28;
+}
+
+.industry_uk_content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.industry_uk_icon svg {
+    height: 50px;
+    width: auto;
+}
+
+.industry_uk_content h5 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.btn {
+	gap: 10px;
+	line-height: 1;
+	padding: 0 40px;
+	font-size: 16px;
+	overflow: hidden;
+	font-weight: 600;
+	transition: 300ms;
+	position: relative;
+	align-items: center;
+	letter-spacing: 1px;
+	display: inline-flex;
+	color: var(--bs-white);
+	justify-content: center;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--bs-primary);
+	border: 1px solid var(--bs-primary);
+	border-radius: var(--bs-border-radius-pill);
+	.btn_icon {
+		line-height: 1;
+		font-size: 16px;
+	}
+	.btn_label {
+		position: relative;
+		display: inline-block;
+		padding: 23px 0px 21px;
+		transition: transform .4s cubic-bezier(.15,.85,.31,1);
+		&:before {
+			top: 120%;
+			left: 50%;
+			width: 100%;
+			display: block;
+			position: absolute;
+			content: attr(data-text);
+			transform: translateX(-50%);
+		}
+	}
+	&:hover {
+		color: var(--bs-white);
+		transform: translateY(-2px);
+		background-color: var(--bs-primary);
+		border: 1px solid var(--bs-primary);
+		box-shadow: 0 10px 30px 0 rgba(244, 122, 31, 0.102);
+		.btn_label {
+			transform: translateY(-81%);
+		}
+	}
+		&:focus-visible {
+			background-color: var(--bs-primary);
+			border-color: var(--bs-primary);
+			border: 1px solid var(--bs-primary);
+			box-shadow: none;
+		}
+		&:active {
+			background-color: var(--bs-primary) !important;
+			border-color: var(--bs-primary) !important;
+			border: 1px solid var(--bs-primary) !important;
+		}
+}
+
+/* ========== Responsive Breakpoints ========== */
+@media (max-width: 1399px) {
+    .industry_uk_app {
+        padding: 70px 0px;
+    }
+    .industy_uk_item {
+        flex: 0 0 23%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .industry_uk_app {
+        padding: 60px 0px;
+    }
+    .industry_uk_app h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .industy_uk_item {
+        flex: 0 0 30%;
+        height: 170px;
+    }
+}
+
+@media (max-width: 991px) {
+    .industry_uk_app {
+        padding: 50px 0px;
+    }
+    .industry_uk_app h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .industy_uk_item {
+        flex: 0 0 45%;
+        height: 160px;
+    }
+}
+
+@media (max-width: 767px) {
+    .industry_uk_app {
+        padding: 40px 0px;
+    }
+    .industry_uk_app h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .industy_uk_item {
+        flex: 0 0 48%;
+        height: 150px;
+    }
+    .btn {
+			padding: 0 28px;
+			font-size: 14px;
+
+			.btn_icon {
+				font-size: 14px;
+			}
+
+			.btn_label {
+				padding: 18px 0 16px;
+			}
+	    }
+}
+
+@media (max-width: 575px) {
+    .industry_uk_app {
+        padding: 30px 0px;
+    }
+    .industry_uk_app h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .industry_uk_app p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .industy_uk_item {
+        flex: 0 0 48%;
+        height: auto;
+        padding: 20px;
+    }
+    .industry_uk_icon svg {
+        height: 40px;
+    }
+    .industry_uk_content h5 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

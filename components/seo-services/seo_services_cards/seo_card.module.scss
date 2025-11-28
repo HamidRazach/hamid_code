@@ -1,0 +1,132 @@
+.workflow_seo {
+    padding: 100px 0px;
+    background: rgb(246, 246, 246);
+}
+
+.workflow_seo h5 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;    
+}
+
+.workflow_items {
+    background: rgb(255, 255, 255);
+    pointer-events: none;
+    height: 100%;
+    margin-top: 30px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    transition: 0.3s ease-in;
+}
+
+.item_name {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    position: relative;
+    color: rgb(49, 66, 82);
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.item_name span svg {
+    height: 45px;
+    width: auto;
+}
+
+.item_name span {
+    margin-bottom: 10px;
+    color: rgba(49, 66, 82, 0.3);
+    display: block;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.52px;
+    font-size: 20px;
+    line-height: 44px;
+}
+
+.item_name .item_icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.item_name .item_icon svg {
+    height: 30px;
+    width: auto;
+}
+
+.workflow_items p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    color: #898989;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.workflow_seo p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+/* responsive */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .workflow_seo {
+        padding: 50px 0px;
+    }
+}
+@media (max-width: 992px) {
+    .workflow_seo h5 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .workflow_seo {
+        padding: 50px 0px;
+    }
+    .workflow_items p {
+         font-size: 15px;
+        line-height: 24px;
+    }
+    .workflow_seo p {
+        font-size: 15px;
+        line-height: 24px;
+  }
+   .workflow_seo h5 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .workflow_seo {
+        padding: 40px 0px;
+    }
+    .workflow_items p {
+         font-size: 14px;
+        line-height: 24px;
+    }
+     .workflow_seo p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+     .workflow_seo h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

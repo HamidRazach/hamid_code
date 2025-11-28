@@ -1,0 +1,94 @@
+.why_choose {
+  padding: 100px 0;
+  position: relative;
+  background-color: #f9f9f9;
+  z-index: 0;
+}
+
+.why_ctext {
+  h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    span {
+      color: #f47a1f;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+  }
+}
+
+.why_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why_img img {
+  width: 80%;
+  margin: auto;
+}
+/* 🔽 Responsive Breakpoints */
+
+/* Large devices (1200px ↓) */
+@media (max-width: 1200px) {
+  .why_ctext h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* Medium devices (992px ↓) */
+@media (max-width: 992px) {
+  .why_choose {
+    padding: 80px 0;
+  }
+  .why_ctext h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .why_ctext p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+}
+
+/* Tablet devices (768px ↓) */
+@media (max-width: 768px) {
+  .why_choose {
+    padding: 60px 0;
+  }
+  .why_ctext h2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+  }
+  .why_ctext p {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+  }
+}
+
+/* Mobile devices (576px ↓) */
+@media (max-width: 576px) {
+  .why_choose {
+    padding: 40px 0;
+  }
+  .why_ctext h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+

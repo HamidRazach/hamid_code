@@ -1,0 +1,127 @@
+.country_section {
+  padding: 100px 0;
+  background: #fff;
+  position: relative;
+  z-index: 0;
+
+  .heading_wrap {
+    margin-bottom: 30px;
+    h2 {
+         font-size: 33px;
+        line-height: 43px;
+        color: #314252;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+    }
+    span {
+        color: #f47a1f;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+        color: #898989;
+        font-weight: 400;
+        margin-bottom: 20px;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+    }
+  }
+
+  .state_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    justify-content: center;
+  }
+.state_grid_card {
+    padding: 25px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+}
+  .state_card {
+    background: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #F5F5F5F7;
+    border-width: 15px 15px 15px 15px;
+    .image_box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .state_img {
+      width: 100px;
+      height: auto;
+    }
+
+    h4 {
+      font-size: 16px;
+      color: #314252;
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: normal;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  /* ===================== Responsive ===================== */
+
+  @media (max-width: 1199px) {
+    .state_grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .heading_wrap h2 {
+      font-size: 28px;
+    }
+
+    .state_grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 60px 0;
+
+    .heading_wrap {
+      h2 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .state_grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .state_grid {
+      grid-template-columns: 1fr;
+    }
+
+    .state_card {
+      padding: 20px 15px;
+    }
+
+    .state_img {
+      width: 90px;
+    }
+  }
+}

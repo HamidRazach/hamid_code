@@ -1,0 +1,168 @@
+.game_changers_software {
+  padding: 100px 0;
+
+  h2 {
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #314252;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #898989;
+    margin-bottom: 0;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+  }
+}
+
+.game_changers_box {
+  background: rgb(8, 28, 40);
+  border-radius: 12px;
+  padding: 30px 25px;
+  height: 100%;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .icon {
+    margin-bottom: 15px;
+
+    svg {
+      width: 41px;
+      height: 41px;
+    }
+  }
+
+  .content {
+    h5 {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 26px;
+      color: #fff;
+      margin-bottom: 12px;
+      font-style: normal;
+      font-family: Poppins, sans-serif;
+    }
+
+    p {
+      color: #fff;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 400;
+      font-style: normal;
+      font-family: Poppins, sans-serif;
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* 🔥 Responsive Breakpoints */
+
+/* XXL (≥1400px) */
+@media (max-width: 1400px) {
+  .game_changers_software {
+    padding: 80px 0;
+
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+}
+
+/* XL (≥1200px) */
+@media (max-width: 1200px) {
+  .game_changers_box {
+    padding: 25px 20px;
+
+    .content {
+      h5 {
+        font-size: 17px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+/* LG (≥992px) */
+@media (max-width: 992px) {
+  .game_changers_software {
+    padding: 70px 0;
+
+    h2 {
+      font-size: 28px;
+    }
+  }
+}
+
+/* MD (≥768px) */
+@media (max-width: 768px) {
+  .game_changers_software {
+    padding: 60px 0;
+
+    h2 {
+      font-size: 26px;
+      line-height: 36px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .game_changers_box {
+    padding: 20px;
+
+    .content {
+      h5 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/* SM (≥576px) */
+@media (max-width: 576px) {
+  .game_changers_software {
+    padding: 50px 0;
+
+    h2 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  .game_changers_box {
+    padding: 18px;
+
+    .content {
+      h5 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+}

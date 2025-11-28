@@ -1,0 +1,141 @@
+.testimonialSection {
+  padding: 100px 0;
+ background-color: #f8f8fb;
+  position: relative;
+  z-index: 0;
+
+ 
+    .small {
+      font-size: 16px;
+      line-height: 28px;
+      font-weight: 600;
+      color: #f47a1f;
+      margin-bottom: 10px;
+      font-style: normal;
+      font-family: Poppins, sans-serif;
+    }
+
+   .softHead {
+    h2 {
+      font-size: 33px;
+      line-height: 43px;
+      font-weight: 700;
+      color: #314252;
+      font-style: normal;
+      font-family: Poppins, sans-serif;
+      margin-bottom: 20px;
+      letter-spacing: normal;
+
+      span {
+        color: #f47a1f;
+      }
+    }
+  }
+}
+
+.indicatorWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.indicator {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.active {
+    border-color:#f47a1f;
+  }
+}
+
+.textBox {
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+  }
+}
+
+.clientBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  img {
+    border-radius: 50%;
+  }
+
+  .clientName {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f47a1f;
+  }
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: #898989;
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1200px) {
+  .softHead h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 992px) {
+  .indicator {
+    width: 70px;
+    height: 70px;
+  }
+  .softHead h2 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+}
+@media (max-width: 768px) {
+  .indicatorWrapper {
+    justify-content: flex-start;
+  }
+  .textBox p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .softHead h2 {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+}
+@media (max-width: 480px) {
+  .indicator {
+    width: 60px;
+    height: 60px;
+  }
+  .textBox p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .softHead h2 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+}

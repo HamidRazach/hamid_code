@@ -1,0 +1,139 @@
+.ecommerce_web_process {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.ecommerce_web_process h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: rgb(49, 66, 82);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.ecommerce_web_process h2 span {
+       color: rgb(244, 122, 31);
+}
+
+.ecomm_process_box {
+    height: 100%;
+    padding: 30px 20px;
+}
+.ecom_box_icon {
+    margin-bottom: 24px;
+}
+
+.ecomm_process_box h5 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+.ecomm_process_box p {
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+/* ================= Responsive ================= */
+
+/* Large desktops (1200px and up) */
+@media (max-width: 1200px) {
+    .ecommerce_web_process h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .ecomm_process_box h5 {
+        font-size: 17px;
+    }
+    .ecomm_process_box p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+/* Tablets (992px and below) */
+@media (max-width: 992px) {
+    .ecommerce_web_process {
+        padding: 80px 0;
+    }
+    .ecommerce_web_process h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .ecomm_process_box {
+        padding: 25px 18px;
+    }
+    .ecomm_process_box h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ecomm_process_box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* Small tablets (768px and below) */
+@media (max-width: 768px) {
+    .ecommerce_web_process {
+        padding: 60px 0;
+    }
+    .ecommerce_web_process h2 {
+        font-size: 25px;
+        line-height: 34px;
+        margin-bottom: 15px;
+    }
+    .ecomm_process_box {
+        padding: 20px 15px;
+    }
+    .ecomm_process_box h5 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .ecomm_process_box p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+/* Mobile (576px and below) */
+@media (max-width: 576px) {
+    .ecommerce_web_process {
+        padding: 50px 0;
+    }
+    .ecommerce_web_process h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .ecomm_process_box {
+        padding: 20px;
+    }
+    .ecomm_process_box h5 {
+        font-size: 14px;
+    }
+    .ecomm_process_box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* Extra small (400px and below) */
+@media (max-width: 400px) {
+    .ecommerce_web_process h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .ecomm_process_box h5 {
+        font-size: 13px;
+    }
+}

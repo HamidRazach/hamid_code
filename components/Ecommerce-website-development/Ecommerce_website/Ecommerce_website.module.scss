@@ -1,0 +1,115 @@
+.ecommerce_company {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.ecommerce_company h2 {
+    font-size: 33px;
+    line-height: 43px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.ecommerce_company h2 span {
+    color: #f47a1f;
+}
+
+.ecommerce_company .ecomm_compnay_box {
+    padding: 35px 25px;
+    background: #081c28;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.ecommerce_company .ecomm_compnay_box svg {
+    margin-bottom: 10px;
+    width: 35px;
+    height: auto;
+}
+
+.ecommerce_company .ecomm_compnay_box p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+/* ====== Large Tablets (<= 1200px) ====== */
+@media (max-width: 1200px) {
+    .ecommerce_company {
+        padding: 80px 0px;
+    }
+    .ecommerce_company h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/* ====== Medium Devices (<= 992px) ====== */
+@media (max-width: 992px) {
+    .ecommerce_company {
+        padding: 70px 0px;
+    }
+    .ecommerce_company h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .ecommerce_company .ecomm_compnay_box {
+        padding: 30px 20px;
+    }
+}
+
+/* ====== Small Tablets & Large Mobiles (<= 768px) ====== */
+@media (max-width: 768px) {
+    .ecommerce_company {
+        padding: 60px 0px;
+        text-align: center;
+    }
+    .ecommerce_company .ecomm_compnay_box {
+        max-width: 100%;
+        padding: 25px 18px;
+    }
+    .ecommerce_company .ecomm_compnay_box svg {
+        margin-bottom: 8px;
+    }
+       .ecommerce_company .ecomm_compnay_box p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+/* ====== Mobile Devices (<= 576px) ====== */
+@media (max-width: 576px) {
+    .ecommerce_company {
+        padding: 50px 0px;
+    }
+    .ecommerce_company h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .ecommerce_company .ecomm_compnay_box p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+/* ====== Extra Small Devices (<= 480px) ====== */
+@media (max-width: 480px) {
+    .ecommerce_company {
+        padding: 40px 0px;
+    }
+    .ecommerce_company h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .ecommerce_company .ecomm_compnay_box {
+        padding: 20px 15px;
+    }
+}

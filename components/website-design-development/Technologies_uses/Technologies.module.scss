@@ -1,0 +1,224 @@
+.technoloy_sec {
+    position: relative;
+    z-index: 0;
+    padding: 100px 0px;
+    background-color: #f8f8fb;
+}
+.technoloy_sec h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.technoloy_sec h2 span {
+   color: #f47a1f;
+}
+
+.example {
+    position: relative;
+}
+.example:after {
+    bottom: 0;
+    color: #e2e2e2;
+    content: attr(data-text);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: -.03em;
+    opacity: .25;
+    position: absolute;
+    width: 1130px;
+    z-index: -1;
+    font-size: 110px;
+    line-height: 0px;
+        
+}
+.technoloy_sec p {
+    font-size: 16px;
+    line-height: 28px; 
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #898989;
+}
+.technoloy_sec .technology_main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.technoloy_sec .technology_main .technology_item {
+    flex: 0 0 33%;
+    margin-bottom: 20px;
+}
+.technoloy_sec .technology_main .technology_item .svg_icon {
+      height: 70px;
+      margin: 0 auto 20px;
+      width: 70px;
+      align-items: center;
+      background: #fff;
+      border-radius: 100%;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, .05);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+}
+  .technoloy_sec .technology_main .technology_item .svg_icon svg {
+      height: 40px;
+      width: 40px;
+  }
+.technoloy_sec .technology_main .technology_item h6 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+.technoloy_sec .technology_main .technology_item p {
+    color: #898989;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 0 40px;
+    text-align: center;
+}
+/* ===== Default (Desktop ≥1200px) ===== */
+/* Your existing styles are base */
+
+
+/* ===== Large Tablets & Small Laptops (992px–1199px) ===== */
+@media (max-width: 1199px) {
+  .technoloy_sec {
+    padding: 80px 0;
+  }
+
+  .technoloy_sec h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .technoloy_sec p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .technoloy_sec .technology_main .technology_item {
+    flex: 0 0 33.33%; /* 3 per row */
+  }
+
+  .example:after {
+    font-size: 90px;
+    width: 900px;
+  }
+}
+
+
+/* ===== Tablets (768px–992px) ===== */
+@media (max-width: 992px) {
+  .technoloy_sec {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .technoloy_sec h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .technoloy_sec p {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .technoloy_sec .technology_main {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .technoloy_sec .technology_main .technology_item {
+    flex: 0 0 50%; /* 2 per row */
+  }
+
+  .technoloy_sec .technology_main .technology_item p {
+    padding: 0 20px;
+  }
+
+  .example:after {
+    font-size: 70px;
+    width: 700px;
+  }
+}
+
+
+/* ===== Mobile (≤768px) ===== */
+@media (max-width: 768px) {
+  .technoloy_sec {
+    padding: 40px 0;
+  }
+
+  .technoloy_sec h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .technoloy_sec p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+
+  .technoloy_sec .technology_main .technology_item {
+    flex: 0 0 100%; /* 1 per row */
+  }
+
+  .technoloy_sec .technology_main .technology_item p {
+    padding: 0 10px;
+  }
+
+  /* ❌ Hide after text on mobile */
+  .example:after {
+    display: none;
+  }
+}
+
+
+/* ===== Small Mobile (≤480px) ===== */
+@media (max-width: 480px) {
+  .technoloy_sec h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .technoloy_sec p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .technoloy_sec .technology_main .technology_item h6 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .technoloy_sec .technology_main .technology_item .svg_icon {
+    height: 60px;
+    width: 60px;
+  }
+
+  .technoloy_sec .technology_main .technology_item .svg_icon svg {
+    height: 30px;
+    width: 30px;
+  }
+}

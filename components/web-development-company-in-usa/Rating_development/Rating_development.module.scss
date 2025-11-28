@@ -1,0 +1,154 @@
+/* rating */
+.rating_usa {
+    padding: 100px 0;
+    background: #314252;
+    z-index: 0;
+    position: relative;
+}
+
+.rating_usa .rating_box {
+    align-items: center;
+    display: flex;
+}
+
+.rating_usa .rating_content {
+    margin-left: 20px;
+}
+
+.rating_usa .rating_num {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+}
+
+.rating_usa .rating_svg svg {
+    height: 55px;
+    width: auto;
+}
+
+.rating_usa .rating_content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+/* ---------- Responsive Breakpoints ---------- */
+@media (max-width: 1399px) {
+  .tabing_section {
+    padding: 70px 0;
+  }
+  .tabing_section .h3_head {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+/* 992px - 1199px */
+@media (max-width: 1199px) {
+  .tabing_section {
+    padding: 60px 0;
+  }
+  .tabing_section .nav_item {
+    padding-right: 40px;
+  }
+  .tabing_section .h3_head {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+/* 768px - 992px (Tablets) */
+@media (max-width: 992px) {
+  .tabing_section {
+    padding: 50px 0;
+  }
+  .tabing_section .h3_head {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .tabing_section .nav_item {
+    padding-right: 20px;
+  }
+  .tabing_section .nav_link {
+    font-size: 15px;
+  }
+  .tabing_section .tab_list_item {
+    padding: 0 15px 15px 0;
+  }
+}
+
+/* 576px - 767px (Large Mobile) */
+@media (max-width: 768px) {
+  .tabing_section {
+    padding: 40px 0;
+  }
+  .tabing_section .h3_head {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .tabing_section .description {
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .tabing_section .custom_nav_tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tabing_section .nav_item {
+    padding-right: 15px;
+    margin-bottom: 10px;
+  }
+  .tabing_section .tab_list_item {
+    padding: 0 10px 10px 0;
+  }
+  .rating_usa .rating_num {
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+
+/* Below 575px (Small Mobile) */
+@media (max-width: 575px) {
+     .rating_usa .rating_num {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .tabing_section {
+    padding: 30px 0;
+  }
+  .tabing_section .h3_head {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .tabing_section .description {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .tabing_section .custom_nav_tabs {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-bottom: none;
+  }
+  .tabing_section .nav_item {
+    padding-right: 0;
+  }
+  .tabing_section .tab_list {
+    justify-content: center;
+  }
+  .tabing_section .tab_list_item {
+    flex: 0 0 45%;
+    text-align: center;
+  }
+  .rating_usa .rating_content p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+

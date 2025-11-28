@@ -1,0 +1,128 @@
+/* rating */
+.rating_usa {
+    padding: 100px 0;
+    background: #314252;
+    z-index: 0;
+    position: relative;
+}
+
+.rating_usa .rating_box {
+    align-items: center;
+    display: flex;
+}
+
+.rating_usa .rating_content {
+    margin-left: 20px;
+}
+
+.rating_usa .rating_num {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+}
+
+.rating_usa .rating_svg svg {
+    height: 50px;
+    width: auto;
+}
+
+.rating_usa .rating_content p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* ================= Responsive Breakpoints ================= */
+
+/* Large screens (1200px - 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .rating_usa {
+        padding: 80px 0;
+    }
+    .rating_usa .rating_num {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+/* Medium screens (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .rating_usa {
+        padding: 70px 0;
+    }
+    .rating_usa .rating_num {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+/* Tablets (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .rating_usa {
+        padding: 60px 0;
+    }
+    .rating_usa .rating_box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rating_usa .rating_content {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .rating_usa .rating_num {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+/* Mobile Landscape (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .rating_usa {
+        padding: 50px 0;
+    }
+    .rating_usa .rating_box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rating_usa .rating_content {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    .rating_usa .rating_num {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .rating_usa .rating_svg svg {
+        height: 45px;
+    }
+}
+
+/* Mobile Portrait (up to 575px) */
+@media (max-width: 575px) {
+    .rating_usa {
+        padding: 40px 0;
+    }
+    .rating_usa .rating_box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .rating_usa .rating_content {
+        margin-left: 0;
+        margin-top: 6px;
+    }
+    .rating_usa .rating_num {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .rating_usa .rating_content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .rating_usa .rating_svg svg {
+        height: 40px;
+    }
+}

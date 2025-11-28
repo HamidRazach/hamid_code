@@ -1,0 +1,281 @@
+.reimagine_health {
+  position: relative;
+  padding: 100px 0;
+  z-index: 0;
+  background-color: #f9f9f9;
+
+  .reimagine_health_box {
+    aspect-ratio: 2.614379085;
+    border-radius: 30px;
+    padding: 0 50px;
+    position: relative;
+  }
+
+  h2 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-size: 34px;
+    line-height: 43px;
+
+    span {
+      color: #f47a1f;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+  }
+
+  .reimagine_health_box .img_mob {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+
+    img {
+      height: 530px;
+      width: auto;
+    }
+  }
+}
+
+/* ---------- Button Styles ---------- */
+.btn {
+  gap: 10px;
+  line-height: 1;
+  padding: 0 40px;
+  font-size: 16px;
+  overflow: hidden;
+  font-weight: 600;
+  transition: 300ms;
+  position: relative;
+  align-items: center;
+  letter-spacing: 1px;
+  display: inline-flex;
+  color: var(--bs-white);
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+  border-radius: var(--bs-border-radius-pill);
+
+  .btn_icon {
+    line-height: 1;
+    font-size: 16px;
+  }
+
+  .btn_label {
+    position: relative;
+    display: inline-block;
+    padding: 23px 0 21px;
+    transition: transform 0.4s cubic-bezier(0.15, 0.85, 0.31, 1);
+
+    &:before {
+      top: 120%;
+      left: 50%;
+      width: 100%;
+      display: block;
+      position: absolute;
+      content: attr(data-text);
+      transform: translateX(-50%);
+    }
+  }
+
+  &:hover {
+    color: var(--bs-white);
+    transform: translateY(-2px);
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-primary);
+    box-shadow: 0 10px 30px 0 rgba(244, 122, 31, 0.102);
+
+    .btn_label {
+      transform: translateY(-81%);
+    }
+  }
+
+  &:focus-visible {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    box-shadow: none;
+  }
+
+  &:active {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+  }
+}
+
+/* ---------- Responsive CSS ---------- */
+
+/* 1200px - 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .reimagine_health {
+    padding: 90px 0;
+
+    .reimagine_health_box {
+      padding: 0 40px;
+    }
+
+    .img_mob {
+      right: 80px;
+
+      img {
+        height: 500px;
+      }
+    }
+
+    h2 {
+      font-size: 32px;
+      line-height: 40px;
+    }
+  }
+}
+
+/* 992px - 1199px */
+@media (max-width: 1199px) {
+  .reimagine_health {
+    padding: 80px 0;
+
+    .reimagine_health_box {
+      padding: 0 30px;
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+
+    .img_mob {
+      right: 60px;
+
+      img {
+        height: 450px;
+      }
+    }
+  }
+}
+
+/* 768px - 991px */
+@media (max-width: 991px) {
+  .reimagine_health {
+    padding: 70px 0;
+
+    .reimagine_health_box {
+      padding: 0 25px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    .img_mob {
+      right: 40px;
+
+      img {
+        height: 400px;
+      }
+    }
+  }
+}
+
+/* <= 768px */
+@media (max-width: 768px) {
+  .reimagine_health {
+    padding: 60px 0;
+    text-align: center;
+
+    .reimagine_health_box {
+      padding: 0 20px;
+      aspect-ratio: auto;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    .img_mob {
+      position: static;
+      margin-top: 20px;
+      text-align: center;
+
+      img {
+        height: 350px;
+      }
+    }
+    .reimagine_health_box .img_mob {
+        position: unset !important;
+    }
+  }
+
+  .btn {
+    padding: 0 28px;
+    font-size: 14px;
+
+    .btn_icon {
+      font-size: 14px;
+    }
+
+    .btn_label {
+      padding: 18px 0 16px;
+    }
+  }
+}
+
+/* <= 575px */
+@media (max-width: 575px) {
+  .reimagine_health {
+    padding: 50px 0;
+
+    h2 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .img_mob img {
+      height: 300px;
+    }
+  }
+}
+
+/* <= 480px */
+@media (max-width: 480px) {
+  .reimagine_health {
+    padding: 40px 0;
+
+    h2 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+}
+
+/* <= 375px */
+@media (max-width: 375px) {
+  .reimagine_health {
+    padding: 30px 0;
+  }
+}

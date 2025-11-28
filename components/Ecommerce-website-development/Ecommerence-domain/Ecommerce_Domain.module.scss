@@ -1,0 +1,145 @@
+.domain_diversity {
+    padding: 100px 0px;
+    background: rgb(249, 249, 249);
+}
+
+.domain_diversity h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.domain_diversity h2 span {
+    color: #f47a1f;
+}
+
+.domain_diversity p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: #898989;
+}
+
+.domain_diversity .domain_main {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.domain_item {
+    flex: 0 0 20%;
+    height: 170px;
+    padding: 40px 0;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.domain_item .domain_content svg {
+    height: 53px;
+    width: auto;
+}
+
+.domain_item:nth-child(5n) {
+    border-right: none;
+}
+
+.domain_item:nth-child(6) {
+    border-left: 1px solid #ececec;
+}
+
+.domain_diversity .domain_main .domain_item .domain_content:hover h6 {
+    color: #f47a1f;
+}
+
+.domain_item .domain_content h6 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #314252;
+    margin-bottom: 0;
+    margin-top: 10px;
+    transition: .2s ease-in-out;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.domain_item:hover svg path {
+    fill: #ff6600;
+    stroke: #ff6600;
+}
+/* ====== Large Tablets (<= 1200px) ====== */
+@media (max-width: 1200px) {
+    .domain_item {
+        flex: 0 0 25%;
+    }
+    .domain_diversity h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/* ====== Tablets (<= 992px) ====== */
+@media (max-width: 992px) {
+    .domain_item {
+        flex: 0 0 33.33%;
+    }
+    .domain_diversity {
+        padding: 80px 0px;
+    }
+    .domain_item .domain_content h6 {
+        letter-spacing: normal;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+/* ====== Large Mobiles (<= 768px) ====== */
+@media (max-width: 768px) {
+    .domain_item {
+        flex: 0 0 50%;
+        height: 150px;
+        padding: 30px 0;
+    }
+    .domain_diversity h2 {
+        font-size: 26px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .domain_diversity p {
+        text-align: center;
+    }
+}
+
+/* ====== Small Mobiles (<= 576px) ====== */
+@media (max-width: 576px) {
+    .domain_item {
+        flex: 0 0 100%;
+        border-right: none !important;
+        height: auto;
+        padding: 20px 0;
+    }
+    .domain_diversity {
+        padding: 60px 0px;
+    }
+    .domain_item .domain_content svg {
+        height: 45px;
+    }
+    .domain_item .domain_content h6 {
+        font-size: 15px;
+    }
+}

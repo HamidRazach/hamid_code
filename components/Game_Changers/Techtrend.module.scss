@@ -1,0 +1,187 @@
+.game_changers_software {
+    padding: 100px 0px;
+    position: relative;
+    z-index: 0;
+}
+
+.game_changers_software h2 {
+    color: #fff;
+    font-size: 45px;
+    line-height: 63px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.game_changers_software h2 span {
+    color: #F47A1F;
+}
+
+.game_changers_software p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+.game_changers_box {
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .1);
+    border-radius: 18px;
+    height: 100%;
+    padding: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.custom-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game_changers_box .icon {
+    margin-bottom: 20px;
+
+}
+
+.game_changers_box .content {
+    color: #314252;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.game_changers_box .content p {
+    color: #898989;
+    text-align: left;
+}
+
+
+/* Large screens (≤ 1200px) */
+@media (max-width: 1200px) {
+    .game_changers_software {
+        padding: 80px 0;
+    }
+    .game_changers_software h2 {
+        font-size: 40px;
+        line-height: 58px;
+    }
+}
+
+/* Medium devices (≤ 992px) */
+@media (max-width: 992px) {
+    .game_changers_software {
+        padding: 70px 0;
+        text-align: center;
+    }
+    .game_changers_software h2 {
+        letter-spacing: normal;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .game_changers_software p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .game_changers_box {
+        padding: 35px 20px;
+    }
+    .game_changers_box .content {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
+
+/* Tablets (≤ 768px) */
+@media (max-width: 768px) {
+    .game_changers_software {
+        padding: 60px 0;
+    }
+
+.game_changers_box .content p {
+    text-align: center;
+}
+
+    .game_changers_software h2 {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .game_changers_software p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .game_changers_box {
+        padding: 30px 18px;
+        text-align: center;
+    }
+
+    .game_changers_box .icon {
+        margin: 0 auto 10px;
+    }
+}
+
+/* Mobile (≤ 576px) */
+@media (max-width: 576px) {
+    .game_changers_software {
+        padding: 50px 0;
+    }
+    .game_changers_software h2 {
+        font-size: 26px;
+        line-height: 38px;
+    }
+    .game_changers_software p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .game_changers_box {
+        padding: 25px 15px;
+    }
+    .game_changers_box .content {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .game_changers_box .content p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+/* Extra small mobile (≤ 480px) */
+@media (max-width: 480px) {
+    .game_changers_software {
+        padding: 40px 0;
+    }
+    .game_changers_software h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .game_changers_software p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .game_changers_box {
+        padding: 20px 12px;
+    }
+    .game_changers_box .content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .game_changers_box .content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

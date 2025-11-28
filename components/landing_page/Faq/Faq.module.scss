@@ -1,0 +1,140 @@
+.faqSection {
+  padding: 100px 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+    font-size: 33px;
+    line-height: 43px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #314252;
+
+
+  .support {
+    color: #f47a1f;
+  }
+}
+
+.faqItem {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.faqHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.number {
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+.numberActive {
+  background: #f47a1f;
+}
+
+.question {
+  flex: 1;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  line-height: 28px;
+}
+
+.arrow {
+  font-size: 22px;
+  font-weight: 700;
+  color: #898989;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  color: #f47a1f;
+}
+
+.answerWrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.open {
+  max-height: 500px; // enough for long answers
+}
+
+.answer {
+  margin-top: 10px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.answer p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+
+  .question {
+    font-size: 14px;
+  }
+
+  .number {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .answer p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .faqItem {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

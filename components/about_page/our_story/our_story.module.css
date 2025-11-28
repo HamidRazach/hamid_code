@@ -1,0 +1,123 @@
+.tekrevol_story {
+    padding: 100px 0px;
+    position: relative;
+    background: #f8f8fb;
+    z-index: 0;
+}
+
+.example h2 {
+    font-size: 33px;
+    line-height: 43px;
+    letter-spacing: normal;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.example h2 span {
+  color: #f47a1f;
+}
+
+.story_content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-bottom: 10px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.story_content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.story_items_content li {
+    color: #314252;
+    flex: 50% 1;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    font-size: 70px;
+    line-height: 70px;
+    margin: 0 0 50px;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.story_items_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.story_items_content li p {
+    line-height: 28px;
+    margin: auto;
+    max-width: 220px;
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .tekrevol_story {
+        padding: 50px 0px;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .story_items_content {
+      padding: 0px;
+    }
+    .story_content p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+     .example h2 {
+      font-size: 28px;
+      line-height: 36px;
+  }
+}
+@media (max-width: 768px) {
+    .tekrevol_story {
+        padding: 50px 0px;
+    }
+    .example h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .story_content p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+}
+
+@media (max-width: 575px) {
+  .tekrevol_story {
+    padding: 40px 0px;
+  }
+
+  .example h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .story_content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .story_items_content li {
+    flex: 100% 1;
+  }
+}

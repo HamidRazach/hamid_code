@@ -1,0 +1,163 @@
+.trusted_ecommerce_web {
+    padding: 100px 0px;
+}
+
+.trusted_ecommerce_web h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.trusted_ecommerce_web h2 span {
+    color: #f47a1f;
+}
+
+.trusted_ecommerce_web p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #898989;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.trusted_ecommerce_web .trusted_ecomm_box {
+    background: rgb(4, 30, 45);
+    height: 100%;
+    padding: 30px 25px;
+    border-radius: 20px;
+}
+
+.trusted_ecommerce_web .trusted_ecomm_box .ecomm_title {
+    color: #f47a1f;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content h5 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    line-height: 30px;
+}
+
+.trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+/* ================== Responsive ================== */
+/* Large Tablets (<= 1200px) */
+@media (max-width: 1200px) {
+    .trusted_ecommerce_web {
+        padding: 80px 0px;
+    }
+    .trusted_ecommerce_web h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content h5 {
+        font-size: 17px;
+        line-height: 28px;
+    }
+}
+
+/* Medium Devices (<= 992px) */
+@media (max-width: 992px) {
+    .trusted_ecommerce_web {
+        padding: 70px 0px;
+    }
+    .trusted_ecommerce_web h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box {
+        padding: 25px 20px;
+    }
+}
+
+/* Small Tablets & Large Mobiles (<= 768px) */
+@media (max-width: 768px) {
+    .trusted_ecommerce_web {
+        padding: 60px 0px;
+    }
+    .trusted_ecommerce_web h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .trusted_ecommerce_web p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box {
+        padding: 20px 18px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+/* Mobile Devices (<= 576px) */
+@media (max-width: 576px) {
+    .trusted_ecommerce_web {
+        padding: 50px 0px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .trusted_ecommerce_web h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .trusted_ecommerce_web p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box {
+        padding: 18px 15px;
+        border-radius: 15px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box .ecomm_title {
+        font-size: 16px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box .ecomm_box_content h5 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+/* Extra Small Devices (<= 480px) */
+@media (max-width: 480px) {
+    .trusted_ecommerce_web {
+        padding: 40px 0px;
+    }
+    .trusted_ecommerce_web h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .trusted_ecommerce_web .trusted_ecomm_box {
+        padding: 15px 12px;
+        border-radius: 12px;
+    }
+}

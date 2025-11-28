@@ -1,0 +1,199 @@
+.domain_diversity {
+    padding: 100px 0px;
+}
+
+.domain_diversity h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.domain_diversity h2 span {
+    color: #f47a1f;
+}
+
+.domain_diversity p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #898989;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.domain_diversity .domain_main {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.domain_item {
+    flex: 0 0 25%;
+    height: 160px;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.domain_item .domain_content svg {
+    height: 45px;
+    width: auto;
+}
+
+.domain_item:nth-child(4n) {
+    border-right: none;
+}
+
+.domain_item:nth-child(9),
+.domain_item:nth-child(10),
+.domain_item:nth-child(11),
+.domain_item:nth-child(12) {
+    border-bottom: none;
+}
+
+.domain_diversity .domain_main .domain_item .domain_content:hover h6 {
+    color: #f47a1f;
+}
+
+.domain_item .domain_content h6 {
+    font-size: 16px;
+    line-height: 28px;
+    color: #314252;
+    margin-bottom: 0;
+    margin-top: 10px;
+    transition: .2s ease-in-out;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* ---------- For 1200px and below ---------- */
+@media (max-width: 1200px) {
+    .domain_item {
+        flex: 0 0 33.333%;
+    }
+
+    .domain_item:nth-child(3n) {
+        border-right: none;
+    }
+
+    .domain_item:nth-child(4n) {
+        border-right: 1px solid #e2e2e2;
+    }
+
+    .domain_item:nth-child(10),
+    .domain_item:nth-child(11),
+    .domain_item:nth-child(12) {
+        border-bottom: none;
+    }
+}
+
+/* ---------- For 992px and below ---------- */
+@media (max-width: 992px) {
+    .domain_diversity {
+        padding: 80px 0;
+    }
+
+    .domain_diversity h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .domain_item {
+        flex: 0 0 50%;
+    }
+
+    .domain_item:nth-child(2n) {
+        border-right: none;
+    }
+
+    .domain_item:nth-child(odd) {
+        border-right: 1px solid #e2e2e2;
+    }
+
+    .domain_item:nth-child(n+9) {
+        border-bottom: none;
+    }
+}
+
+/* ---------- For 768px and below ---------- */
+@media (max-width: 768px) {
+    .domain_diversity {
+        padding: 60px 0;
+    }
+
+    .domain_diversity h2 {
+        font-size: 26px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .domain_diversity p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .domain_item {
+        flex: 0 0 50%;
+        height: 140px;
+    }
+
+    .domain_item .domain_content svg {
+        height: 40px;
+    }
+}
+
+/* ---------- For 576px and below ---------- */
+@media (max-width: 576px) {
+    .domain_diversity {
+        padding: 50px 0;
+    }
+
+    .domain_item {
+        flex: 0 0 100%;
+        border-right: none;
+        height: 130px;
+    }
+
+    .domain_item .domain_content svg {
+        height: 35px;
+    }
+
+    .domain_item .domain_content h6 {
+        letter-spacing: normal;
+        font-size: 15px;
+    }
+     .domain_item:nth-child(odd) {
+        border-right: none;
+    }
+     .domain_item:nth-child(n+9) {
+        border-bottom: 1px solid #e2e2e2;
+    }
+}
+
+/* ---------- For 480px and below ---------- */
+@media (max-width: 480px) {
+    .domain_diversity h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .domain_item {
+        height: 120px;
+    }
+
+    .domain_item .domain_content h6 {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,112 @@
+.trusted_ecommerce_web {
+    padding: 100px 0px;
+}
+
+.trusted_ecommerce_web h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: rgb(49, 66, 82);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.trusted_ecommerce_web h2 span {
+    color: rgb(244, 122, 31);
+}
+
+.trusted_ecommerce_web p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #898989;
+
+}
+
+.trusted_ecommerce_web p .link_para {
+    color: rgb(244, 122, 31);
+    font-weight: 500;
+}
+
+.trusted_ecommerce_web .trusted_ecomm_box {
+    height: 100%;
+    background: rgb(49, 66, 82);
+    padding: 30px 25px;
+}
+
+.ecomm_title {
+    color: rgb(244, 122, 31);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ecomm_box_content h5 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.ecomm_box_content p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-style: normal;
+}
+
+/* responsive */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .trusted_ecommerce_web {
+        padding: 80px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+   .trusted_ecommerce_web h2 {
+    font-size: 28px;
+    line-height: 36px;
+   }
+}
+
+@media (max-width: 768px) {
+    .trusted_ecommerce_web {
+        padding: 50px 0px;
+    }
+
+    .trusted_ecommerce_web h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .trusted_ecommerce_web p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+}
+@media (max-width: 480px) {
+    .trusted_ecommerce_web {
+        padding: 40px 0px;
+    }
+  .trusted_ecommerce_web h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .trusted_ecommerce_web p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

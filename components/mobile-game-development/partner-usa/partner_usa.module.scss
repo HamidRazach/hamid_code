@@ -1,0 +1,155 @@
+.partner_usa {
+    background-color: #f8f8fb;
+    padding: 100px 0px;
+    z-index: 0;
+    position: relative;
+}
+
+.partner_usa h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.partner_usa h2 span {
+  color: #f47a1f;
+}
+
+.partner_usa p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: #898989;
+}
+
+.partner_box {
+    border-right: 1px solid #dadadb;
+    margin: auto;
+    max-width: 100%;
+    padding: 0 70px;
+    text-align: center;
+}
+
+.partner_usa .partner_num {
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 90px;
+    margin-bottom: 20px;
+}
+
+.partner_usa .partner_box .partner_para p {
+    padding-right: 0;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: #898989;
+}
+    /* ===== Responsive Breakpoints ===== */
+
+/* Large desktops < 1200px */
+@media (max-width: 1200px) {
+  .partner_usa {
+    padding: 80px 0;
+  }
+
+    .partner_usa h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    .partner_box {
+      padding: 0 50px;
+    }
+
+    .partner_num {
+      font-size: 80px;
+      line-height: 80px;
+    }
+}
+
+/* Tablets landscape < 992px */
+@media (max-width: 992px) {
+      .partner_usa {
+        padding: 70px 0;
+      }
+
+    .partner_usa h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .partner_box {
+      padding: 0 40px;
+      border-right: none; 
+    }
+
+    .partner_num {
+      font-size: 70px;
+      line-height: 70px;
+    }
+}
+
+/* Tablets portrait < 768px */
+@media (max-width: 768px) {
+  .partner_usa {
+    padding: 50px 0;
+  }
+
+    .partner_usa h2 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    .partner_usa p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+
+    .partner_box {
+      padding: 0 20px;
+    }
+
+    .partner_num {
+      font-size: 60px;
+      line-height: 60px;
+    }
+}
+
+/* Mobile < 576px */
+@media (max-width: 576px) {
+  .partner_usa {
+    padding: 40px 0;
+  }
+
+    .partner_usa h2 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    .partner_usa p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .partner_box {
+      padding: 0 10px;
+    }
+
+    .partner_num {
+      font-size: 50px;
+      line-height: 50px;
+    }
+}

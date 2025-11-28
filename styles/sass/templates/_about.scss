@@ -1,0 +1,61 @@
+.about_and_case_section {
+	padding: 100px 0;
+    background: rgb(10, 38, 56);
+	.shape_image_1 {
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		img {
+			width: calc(100% - 530px);
+			transform: translateX(5px);
+		}
+	}
+}
+
+// About Page 
+body:has(.page_banner_section + .intro_about_section) .page_banner_section {
+	padding-bottom: 394px;
+}
+.intro_about_section {
+	.intro_about_content {
+		z-index: 1;
+		position: relative;
+		margin: -420px 0 60px;
+		.image_wrap {
+			overflow: hidden;
+			border-radius: var(--bs-border-radius-sm);
+		}
+	}
+}
+
+.about-page {
+	.page_banner_section {
+		background-image: none!important;
+	}
+	.client_logo_section {
+		background-image: none!important;
+	}
+}
+
+.service-single-page {
+	overflow: hidden;
+	.process_technology_review_section {
+		padding-top: 80px;
+
+		@media(max-width:991px){
+			padding-top: 30px;
+		}
+
+		.decoration_item {
+	       display: none;
+		}
+	}
+}
+
+.site_footer {
+	overflow: hidden;
+}
+/* 5.01 - About Page - End
+================================================== */
+

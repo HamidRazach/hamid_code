@@ -1,0 +1,146 @@
+.exp_sec {
+  padding: 100px 0;
+  background: #fff;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+
+  .exp_text {
+    margin-bottom: 50px;
+
+    h3 {
+         font-size: 33px;
+        line-height: 43px;
+        color: #314252;
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        margin-bottom: 20px;
+
+      span {
+        color: #f47a1f;
+      }
+    }
+
+    p {
+     font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+
+  .exp_img {
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      width: 130px;
+      height: 130px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      span {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+        color: #898989;
+        text-transform: capitalize;
+      }
+
+      img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    padding: 60px 0;
+
+    .exp_text h3 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    .exp_img ul {
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .exp_sec {
+      padding: 50px 0;
+    }
+
+    .mobile_view {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 10px;
+
+      ul {
+        display: inline-flex;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+      }
+
+      li {
+        min-width: 90px;
+        height: 90px;
+        flex-shrink: 0;
+      }
+    }
+     .exp_text p {
+      font-size: 15px;
+      line-height: 24px;
+    }
+     .exp_text h3 {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .exp_sec {
+     padding: 40px 0;
+    }
+
+    .exp_text h3 {
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .exp_text p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}

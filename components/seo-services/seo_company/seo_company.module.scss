@@ -1,0 +1,104 @@
+.seo_company {
+    padding: 100px 0px;
+}
+
+.seo_company h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.seo_company h2 span {
+    color: #f47a1f;
+}
+
+.seo_company p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.seo_company ul {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.seo_company ul li {
+    color: #898989;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    list-style: none;
+}
+
+.seo_company ul li:before {
+    background: #f47a1f;
+    border-radius: 50px;
+    content: "";
+    left: 0;
+    position: absolute;
+    height: 6px;
+    top: 12px;
+    width: 6px;
+}
+
+
+/* responsive css */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .seo_company {
+        padding: 80px 0px;
+    }
+}
+@media (max-width: 992px) {
+.seo_company h2 {
+    font-size: 28px;
+    line-height: 36px;
+}
+}
+@media (max-width: 768px) {
+     .seo_company {
+        padding: 50px 0px;
+    }
+    .seo_company h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .seo_company p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .seo_company ul li {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 480px) {
+     .seo_company {
+        padding: 40px 0px;
+    }
+    .seo_company h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+     .seo_company p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+     .seo_company ul li {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

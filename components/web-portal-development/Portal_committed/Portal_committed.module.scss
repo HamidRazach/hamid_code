@@ -1,0 +1,101 @@
+.Perks {
+    padding: 100px 0px;
+}
+
+.Perks p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.Perks h2 span {
+    color: #f47a1f;
+}
+
+.Perks h2 {
+    font-size: 33px;
+    line-height: 43px;
+    color: #314252;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.Perks .perks_box {
+    height: 350px;
+    padding: 35px 20px;
+    background-color: #efefef;
+    transition: .3s linear;
+}
+
+.Perks .perks_content {
+    position: relative;
+}
+
+.Perks .perks_content h4 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #314252;
+    position: relative;
+    margin-bottom: 10px;
+    font-weight: 700;
+
+}
+
+.Perks .perks_content h4:after {
+    top: 70px;
+    width: 140px;
+    height: 4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    background: #f47a1f;
+}
+
+.Perks .perks_content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #898989;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.Perks .perks_box:hover {
+    background-color: #f47a1f;
+}
+
+.Perks .perks_box:hover .perks_content h4 {
+    color: #fff;
+}
+
+.Perks .perks_box:hover .perks_content h4:after {
+    background: #fff;
+}
+
+.Perks .perks_box:hover .perks_content p {
+    color: #fff;
+}
+
+
+/* responsive css */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .Perks {
+        padding: 50px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Perks .perks_content h4:after {
+        display: none;
+    }
+}

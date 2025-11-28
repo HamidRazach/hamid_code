@@ -1,0 +1,219 @@
+.discoverySection {
+    overflow-x: hidden;
+    --duration: 0.5s;
+    --easing: ease-in-out;
+}
+
+.accordion {
+    display: flex;
+    width: 100%;
+    min-height: 530px; // Maintain a consistent height for the container
+}
+
+.card {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #001b28;
+    border-left: 1px solid #062738; // Add separator
+    
+    &:first-child {
+        border-left: none;
+    }
+}
+.card:nth-child(odd) .cardHeader {
+    background-color: #314252;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 100%;
+    padding: 1rem;
+    color: #fff;
+    background-color: #062738;
+    cursor: pointer;
+    transition: background-color var(--duration) var(--easing);
+
+    .headerText {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transform: rotate(180deg);
+        writing-mode: vertical-rl;
+        white-space: wrap;
+    }
+
+    // Hide mobile arrow on desktop
+    .arrowIcon {
+        display: none;
+    }
+}
+
+.cardBody {
+    flex-grow: 1;
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-width var(--duration) var(--easing), opacity calc(var(--duration) / 2) var(--easing);
+
+    .contentWrap {
+        padding: 50px 40px;
+        min-width: 500px; // Prevent content from wrapping too early during animation
+        color: #fff;
+        opacity: 0;
+        transition: opacity calc(var(--duration) / 2) var(--easing) calc(var(--duration) / 2);
+    }
+
+    &.active {
+        max-width: 1200px; // Set to a value larger than the possible content width
+        opacity: 1;
+
+        .contentWrap {
+            opacity: 1;
+        }
+    }
+}
+
+.icon {
+    margin-bottom: 50px;
+    svg {
+        height: 50px;
+        width: auto;
+    }
+}
+
+.mainTitle {
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 700;
+    letter-spacing: normal;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 60px;
+    max-width: 340px;
+    color: #fff;
+    span {
+        color: #f47a1f;
+    }
+}
+
+.title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0;
+}
+.contentWrap p {
+   font-size: 16px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+// --- Responsive View for Tablets and Mobile ---
+@media (max-width: 992px) {
+    .accordion {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 100%;
+        border-left: none;
+        border-bottom: 1px solid #062738;
+    }
+
+    .cardHeader {
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        padding: 20px;
+        
+        .headerText {
+            transform: none;
+            writing-mode: horizontal-tb;
+        }
+
+        .arrowIcon {
+            display: block;
+            transition: transform var(--duration) var(--easing);
+        }
+
+        &.active .arrowIcon {
+            transform: rotate(90deg);
+        }
+    }
+
+    .cardBody {
+        max-width: 100%;
+        max-height: 0;
+        transition: max-height var(--duration) var(--easing), opacity calc(var(--duration) / 2) var(--easing);
+
+        .contentWrap {
+            min-width: auto;
+            padding: 20px 20px 30px;
+            opacity: 1; // Opacity handled by parent on mobile
+            transition: none;
+        }
+        
+        &.active {
+            max-height: 700px; // A safe value, can be adjusted based on content
+        }
+    }
+}
+@media (max-width: 768px) {
+
+    .mainTitle {
+        font-size: 26px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+    .title {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+    .contentWrap p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .mainTitle {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .title {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+    .contentWrap p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+}
+

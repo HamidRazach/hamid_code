@@ -1,0 +1,153 @@
+.health_features {
+  padding: 100px 0;
+  position: relative;
+  z-index: 0;
+  background-color: #f9f9f9;
+
+  h2 {
+    font-size: 34px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #314252;
+    margin-bottom: 20px;
+    font-style: normal;
+    letter-spacing: normal;
+
+    span {
+      color: #f47a1f;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #898989;
+    font-style: normal;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+}
+
+/* ✅ Fixed Hover + Active Tab Button */
+.nav_tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 40px 0;
+
+  .tab_btn {
+    padding: 12px 24px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: #314252;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+
+    /* Hover for inactive button */
+    &:hover {
+      border-color: #f47a1f;
+      color: #f47a1f;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(244, 122, 31, 0.15);
+    }
+
+    /* Active tab */
+    &.active {
+      background: #f47a1f;
+      color: #fff;
+      border-color: #f47a1f;
+      box-shadow: 0 4px 10px rgba(244, 122, 31, 0.25);
+
+      &:hover {
+        background: #e46f1d; /* slightly darker orange */
+        border-color: #e46f1d;
+        box-shadow: 0 4px 10px rgba(228, 111, 29, 0.3);
+      }
+    }
+  }
+}
+
+/* Logo Grid */
+.tech_logos {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      text-align: center;
+
+      img {
+        max-height: 60px;
+        max-width: 100%;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.08);
+        }
+      }
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .health_features {
+    padding: 80px 0;
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .nav_tabs {
+    flex-direction: column;
+    align-items: center;
+
+    .tab_btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .tech_logos ul {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .health_features {
+    padding: 60px 0;
+
+    h2 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .tech_logos ul {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 15px;
+  }
+}
