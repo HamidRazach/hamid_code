@@ -7,6 +7,41 @@ import HeaderAnimate from "./HeaderAnimate";
 import Global_header from "../global";
 
 const Header = (props) => {
+   // mega menu close code start
+  useEffect(() => {
+  const handleClick = (e) => {
+    const link = e.target.closest(".mega_menu_wrapper a");
+    if (!link) return;
+
+    const dropdown = link.closest(".dropdown");
+    if (!dropdown) return;
+
+    // hover ko break karne ke liye pointer temporarily hatao
+    dropdown.style.pointerEvents = "none";
+
+    // menu close
+    const menu = dropdown.querySelector(".dropdown-menu");
+    if (menu) {
+      menu.style.display = "none";
+    }
+
+    // thori dair baad normal kar do
+    setTimeout(() => {
+      dropdown.style.pointerEvents = "";
+      if (menu) {
+        menu.style.display = "";
+      }
+    }, 300);
+  };
+
+  document.addEventListener("click", handleClick, true);
+
+  return () => {
+    document.removeEventListener("click", handleClick, true);
+  };
+}, []);
+// mega menu close code end
+
   const [mobailActive, setMobailState] = useState(false);
 
   const ClickHandler = () => {

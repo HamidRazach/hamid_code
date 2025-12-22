@@ -2,6 +2,9 @@
 ================================================== */
 
 // Header Elements - Start
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
 .site_header {
 	top: 0;
 	left: 0;
