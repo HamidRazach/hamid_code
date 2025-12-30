@@ -13,7 +13,7 @@ import TierMobileApp from "../../components/Top_TierMobileApp";
 import Augmentmobileapp from "../../components/Augmentedmobileapp";
 import Performance_app from "../../components/Performance_App";
 import Mobile_app_innovations from "../../components/mobile_app_Innovations";
-import { mobileServicesData } from "../../constant/data";
+import { mobileServicesData } from "../../constant/services/mobile-app-development";
 import HealthFeatures from "../../components/Mobile_app_developement/health_features";
 import Digital_Masterpieces from "../../components/Mobile_app_developement/Digital Masterpieces";
 import Brand_Scale from "../../components/Mobile_app_developement/Brand_Scale";

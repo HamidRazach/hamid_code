@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { shopifyData, shopifyTestimonialData } from "../../constant/data";
+import { shopifyData, shopifyTestimonialData } from "../../constant/services/shopify-development-services";
 import Shopify_channel from "../../components/shopify-development-services/shopify-channel";
 import Shopify_expert from "../../components/shopify-development-services/shopify-expert";
 import Shopify_Why_choose from "../../components/shopify-development-services/shopify_why_choose";

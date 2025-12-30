@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { kotlinbannerData, kotlinBrandData, kotlinchannelData, kotlinCraftData, kotlinExpertData, kotlinProductsData, kotlinRewriteData, kotlinWebsiteData, kotlinWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { kotlinbannerData, kotlinBrandData, kotlinchannelData, kotlinCraftData, kotlinExpertData, kotlinProductsData, kotlinRewriteData, kotlinWebsiteData, kotlinWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/kotlin-app-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

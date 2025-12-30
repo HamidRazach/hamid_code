@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Project from '../../../api/project'
 import Image from 'next/image';
 import Customaccordin from './accordin';
+import { Fade } from "react-awesome-reveal";
 
 
 const About = (props) => {
@@ -13,19 +14,23 @@ const About = (props) => {
 
   return (
     <>
+    <Fade direction="up" triggerOnce>
     <Customaccordin />
+    </Fade>
     <section className="about_and_case_section section_space section_decoration">
       <div className="container">
     
         <div className="pt-10">
-          <div className="heading_block text-center text-white">
-            <div className="heading_focus_text has_underline d-inline-flex">
-              Case Studies
+          <Fade direction="down" triggerOnce>
+            <div className="heading_block text-center text-white">
+              <div className="heading_focus_text has_underline d-inline-flex">
+                Case Studies
+              </div>
+              <h2 className="heading_text mb-0">
+                Our latest <mark>Case</mark> Studies
+              </h2>
             </div>
-            <h2 className="heading_text mb-0">
-              Our latest <mark>Case</mark> Studies
-            </h2>
-          </div>
+          </Fade>
 
           <div className="case_studies_wrapper">
             {Project.slice(6, 9).map((project, prj) => (
@@ -50,15 +55,16 @@ const About = (props) => {
               </div>
             ))}
           </div>
-
-          <div className="btns_group pb-0">
-            <Link onClick={ClickHandler} href="/portfolio" className="btn btn-primary">
-              <span className="btn_label" data-text="View Case Studies">View Case Studies</span>
-              <span className="btn_icon">
-                <i className="fa-solid fa-arrow-up-right"></i>
-              </span>
-            </Link>
-          </div>
+           <Fade direction="up" delay={300} triggerOnce>
+            <div className="btns_group pb-0">
+              <Link onClick={ClickHandler} href="/portfolio" className="btn btn-primary">
+                <span className="btn_label" data-text="View Case Studies">View Case Studies</span>
+                <span className="btn_icon">
+                  <i className="fa-solid fa-arrow-up-right"></i>
+                </span>
+              </Link>
+            </div>
+          </Fade>
         </div>
       </div>
     </section>

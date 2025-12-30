@@ -1,3 +1,4 @@
+"use client";
 import React, { Fragment, useState, useEffect } from "react";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";

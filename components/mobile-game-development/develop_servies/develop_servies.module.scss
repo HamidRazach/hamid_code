@@ -30,10 +30,10 @@
     background: rgba(12, 11, 11, 0.38);
     box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(7px);
-    border: 1px solid #ececec;
+    border: 1px solid #f47a1f;
     height: 100%;
-    padding: 20px;
-    border-radius: 12px;
+    padding: 25px;
+    border-radius: 15px;
 }
 .main_title {
     display: flex;
@@ -60,7 +60,7 @@
     line-height: 28px;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: -.02em;
+    letter-spacing: normal;
     font-family: Poppins, sans-serif;
     margin-bottom: 0;
 }

@@ -71,9 +71,9 @@
       justify-content: center;
       text-align: center;
 }
-  .technoloy_sec .technology_main .technology_item .svg_icon svg {
-      height: 40px;
-      width: 40px;
+  .technoloy_sec .technology_main .technology_item .svg_icon i {
+      font-size: 30px;
+      color: #f47a1f;
   }
 .technoloy_sec .technology_main .technology_item h6 {
     font-size: 14px;
@@ -217,8 +217,7 @@
     width: 60px;
   }
 
-  .technoloy_sec .technology_main .technology_item .svg_icon svg {
-    height: 30px;
-    width: 30px;
+  .technoloy_sec .technology_main .technology_item .svg_icon i {
+    font-size: 25px;
   }
 }

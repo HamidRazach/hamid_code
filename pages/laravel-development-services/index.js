@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Laravel_developmentbannerData, Laravel_developmentBrandData, Laravel_developmentchannelData, Laravel_developmentCraftData, Laravel_developmentExpertData, Laravel_developmentProductsData, Laravel_developmentRewriteData, Laravel_developmentWebsiteData, Laravel_developmentWhyChooseData, Php_developmentRewriteData, woocomerenceTestimonialData } from "../../constant/data";
+import { Laravel_developmentbannerData, Laravel_developmentBrandData, Laravel_developmentchannelData, Laravel_developmentCraftData, Laravel_developmentExpertData, Laravel_developmentProductsData, Laravel_developmentRewriteData, Laravel_developmentWebsiteData, Laravel_developmentWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/laravel-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

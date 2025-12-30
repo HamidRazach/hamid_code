@@ -22,7 +22,7 @@ export default function Trusted_ecommerce() {
         <div className="row">
           <div className="m-auto col-xxl-10 col-xl-11 col-lg-12 col-md-12 col-12">
             <div className="mt-3 mt-md-4 row">
-              <div className="mb-4 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
+              <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
                 <div
                   className={styles.trusted_ecomm_box}>
                   <div className={styles.ecomm_title}>01</div>
@@ -36,7 +36,7 @@ export default function Trusted_ecommerce() {
                   </div>
                 </div>
               </div>
-              <div className="mb-4 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
+              <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
                 <div
                   className={styles.trusted_ecomm_box}>
                   <div className={styles.ecomm_title}>02</div>
@@ -50,7 +50,7 @@ export default function Trusted_ecommerce() {
                   </div>
                 </div>
               </div>
-              <div className="mb-md-0 mb-4 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
+              <div className="mb-md-0 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
                 <div
                   className={styles.trusted_ecomm_box}>
                   <div className={styles.ecomm_title}>03</div>

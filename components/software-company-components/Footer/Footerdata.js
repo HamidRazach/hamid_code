@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
 
@@ -59,6 +60,7 @@ const footerData = [
       { name: "United State", link: "#" },
       { name: "United kingdom", link: "#" },
       { name: "Canada", link: "#" },
+      { name: "Germany", link: "#" },
       { name: "Bahrain", link: "#" },
       { name: "Australia", link: "#" },
       { name: "Pakistan", link: "#" },

@@ -46,9 +46,16 @@
     vertical-align: middle;
 }
 
-.domain_item .domain_content svg {
-    height: 45px;
-    width: auto;
+.domain_item .domain_content i {
+    font-size: 45px;
+}
+
+.domain_item .domain_content:hover i {
+    color: #f47a1f;
+}
+
+.domain_diversity .domain_main .domain_item .domain_content:hover h6 {
+    color: #f47a1f;
 }
 
 .domain_item:nth-child(4n) {
@@ -62,9 +69,6 @@
     border-bottom: none;
 }
 
-.domain_diversity .domain_main .domain_item .domain_content:hover h6 {
-    color: #f47a1f;
-}
 
 .domain_item .domain_content h6 {
     font-size: 16px;

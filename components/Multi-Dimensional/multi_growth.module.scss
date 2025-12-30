@@ -36,13 +36,12 @@
 }
 
 .androidbuss .androidbuss_box {
-    margin-bottom: 15px;
-    min-height: 180px;
-    padding: 0 20px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
     align-items: center;
     background: hsla(0, 0%, 100%, .1);
     display: flex;
-    height: auto;
     transition: all .3s ease-in;
 }
 

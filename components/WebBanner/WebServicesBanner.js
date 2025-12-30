@@ -6,6 +6,7 @@ import styles from "./webservice.module.scss";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { ToastContainer, Zoom, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Fade } from "react-awesome-reveal";
 // import ReCAPTCHA from "react-google-recaptcha";
 
 export default function WebServicesBanner({ data }) {
@@ -130,10 +131,14 @@ export default function WebServicesBanner({ data }) {
                 </React.Fragment>
               ))}
             </ul>
+         
             <div className={styles.banenr_content}>
+            <Fade direction="up" delay={80} triggerOnce>
               <div className={styles.service_head}>
                 <h1>{data.title}</h1>
               </div>
+            </Fade>
+              <Fade direction="up" delay={80} triggerOnce>
               <div className={styles.banner_content_txt}>
                 <p>{data.description}</p>
              <div className={styles.main_btn}>
@@ -150,12 +155,13 @@ export default function WebServicesBanner({ data }) {
               </div>
 
               </div>
+                </Fade>
             </div>
           </div>
 
           {/* Right Form */}
           <div className="col-12 col-lg-5">
-            <div className={styles.banner_form}>
+            <div className={styles.banner_form}>  
               <h2>
                 {data.form.title} <span>{data.form.titleHighlight}</span>
               </h2>
@@ -234,12 +240,20 @@ export default function WebServicesBanner({ data }) {
                 <ul>
                   {data.featured.logos.map((logo, index) => (
                     <li key={index}>
+                         <Fade
+                          key={index}
+                          direction="up"
+                          delay={index * 100}   // ✅ stagger delay
+                          duration={600}
+                          triggerOnce
+                        >
                       <Image
                         src={logo.src}
                         alt={logo.alt}
                         width={logo.width}
                         height={logo.height}
                       />
+                      </Fade>
                     </li>
                   ))}
                 </ul>

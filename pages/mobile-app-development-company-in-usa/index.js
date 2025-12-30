@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { CountryStateData, BrandAppData, FeaturesValuesData, Mobile_app_development_in_usabannerData, Mobile_app_development_in_usachannelData, Mobile_app_development_in_usaCraftData, Mobile_app_development_in_usaExpertData, Mobile_app_development_in_usaProductsData, Mobile_app_development_in_usaRewriteData, Mobile_app_development_in_usaWebsiteData, Mobile_app_development_in_usaWhyChooseData, MobileDevelopmentusaData, Process_TurnsData, StackUseData } from "../../constant/data";
+import { CountryStateData, BrandAppData, FeaturesValuesData, Mobile_app_development_in_usabannerData, Mobile_app_development_in_usachannelData, Mobile_app_development_in_usaCraftData, Mobile_app_development_in_usaExpertData, Mobile_app_development_in_usaProductsData, Mobile_app_development_in_usaRewriteData, Mobile_app_development_in_usaWebsiteData, Mobile_app_development_in_usaWhyChooseData, MobileDevelopmentusaData, Process_TurnsData, StackUseData } from "../../constant/services/mobile-app-development-company-in-usa";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Magento_channel from "../../components/magento-development-services/magento_channel";
 import Magento_expert from "../../components/magento-development-services/Magento_expert";

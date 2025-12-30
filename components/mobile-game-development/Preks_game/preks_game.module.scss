@@ -26,7 +26,6 @@
     font-style: normal;
 }
 .preks_box {
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,13 +34,12 @@
 }
 .preks_box .preks_item {
     background: #041e2d;
-    border-radius: 10px;
+    border-radius: 20px;
     cursor: pointer;
     flex: 0 0 48%;
     margin-bottom: 0;
     padding: 20px;
     position: relative;
-    height: 100%;
 }
 .preks_item h6 {
     color: #fff;

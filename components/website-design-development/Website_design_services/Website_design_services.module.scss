@@ -64,10 +64,15 @@
     height: 50px;
 }
 
-.improvise_section .stack_box .stack_item .stack_title svg {
-    height: 45px;
-    margin-right: 20px;
-    width: auto;
+.improvise_section .stack_box .stack_item .stack_title i {
+  font-size: 45px;
+  margin-right: 20px;
+  color: #f47a1f;
+  transition: color 0.3s ease;
+}
+
+.improvise_section .stack_box .stack_item:hover .stack_title i {
+  color: #ffffff;
 }
 
 .improvise_section .stack_box .stack_item:hover {
@@ -76,14 +81,6 @@
 
 .improvise_section .stack_box .stack_item:hover h5 {
     color: #fff;
-}
-
-.improvise_section .stack_box .stack_item:hover svg path,
-.improvise_section .stack_box .stack_item:hover svg rect,
-.improvise_section .stack_box .stack_item:hover svg circle,
-.improvise_section .stack_box .stack_item:hover svg polygon {
-  fill: #fff !important;
-  stroke: #fff !important;
 }
 
 .improvise_section .stack_box .stack_item:hover p {

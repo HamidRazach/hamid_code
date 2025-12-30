@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactForm from '../ContactFrom/ContactForm'
 import Link from 'next/link'
+import { Fade } from 'react-awesome-reveal';
 
 
 const ContactSection = (props) => {
@@ -11,14 +12,21 @@ const ContactSection = (props) => {
                     <div className="col-lg-4">
                         <div className="contact_method_box">
                             <div className="heading_block">
+                                <Fade direction="up" triggerOnce>
                                 <div className="heading_focus_text has_underline d-inline-flex mb-3">
                                     You Are Here
                                 </div>
+                                </Fade>
+                                <Fade direction="up" delay={80} triggerOnce>
                                 <h2 className="heading_text">
                                     Let's Start
                                 </h2>
+                                </Fade>
+                                <Fade direction="up" delay={140} triggerOnce>
                                 <p className="heading_description mb-0">Initiating Your Journey to Success and Growth.</p>
+                                </Fade>
                             </div>
+                             <Fade direction="up" cascade damping={0.15} triggerOnce>
                             <ul className="contact_method_list unordered_list_block">
                                 <li>
                                     <Link href="tel:+447426472765">
@@ -61,6 +69,8 @@ const ContactSection = (props) => {
                                     </Link>
                                 </li>
                             </ul>
+                            </Fade>
+                             <Fade direction="up" cascade damping={0.12} triggerOnce>
                             <ul className="support_step unordered_list_block">
                                 <li>
                                     <span className="serial_number">01</span>
@@ -79,17 +89,22 @@ const ContactSection = (props) => {
                                     <span className="text">Start the project</span>
                                 </li>
                             </ul>
+                            </Fade>
                         </div>
                     </div>
                     <div className="col-lg-8">
                         <div className="instant_contact_form">
+                            <Fade direction="up" triggerOnce>
                             <div className="small_title">
                                 <i className="fa-solid fa-envelope-open-text"></i>
                                 Let's Connect!
                             </div>
+                            </Fade>
+                              <Fade direction="up" delay={100} triggerOnce>
                             <h3 className="form_title">
                                 Send us a message, and we'll promptly discuss your project with you.
                             </h3>
+                            </Fade>
                             <ContactForm />
                         </div>
                     </div>

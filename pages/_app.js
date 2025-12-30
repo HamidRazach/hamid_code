@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/react-modal-video/scss/modal-video.scss';
 import 'swiper/css';
 import 'swiper/css/pagination';
+// import '../styles/animate.css'
 import '../styles/themify-icons.css';
 import '../styles/sass/style.scss';
 import "slick-carousel/slick/slick.css";

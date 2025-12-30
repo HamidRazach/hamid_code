@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./contact.module.scss";
@@ -178,7 +177,7 @@ export default function ConnectExpert() {
               <h5>Contact Info:</h5>
               <div className={styles.contact_info_item}>
                 <div className={styles.contact_info_img}>
-                  <MdOutlineMarkEmailUnread size={25} />
+                  <i class="fa-regular fa-envelope"></i>
                 </div>
                 <div className={styles.contact_info_profile}>
                   <Link
@@ -258,7 +257,7 @@ export default function ConnectExpert() {
                 <p>
                   By submitting this form, you agree to our{" "}
                   <Link
-                    href="/privacy-policy"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

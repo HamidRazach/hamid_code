@@ -12,7 +12,7 @@ import Seo_result from "../../components/seo-services/result_driven_seo";
 import Seo_partner from "../../components/seo-services/Seo_Partner";
 import Seo_strategy from "../../components/seo-services/seo_strategy";
 import Seo_marketing_agency from "../../components/seo-services/seo_marketing_agency";
-import { seoservicesData } from "../../constant/data";
+import { seoservicesData } from "../../constant/services/seo-services";
 
 const Digitalmarketing = () => {
   return (

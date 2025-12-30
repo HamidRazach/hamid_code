@@ -48,6 +48,7 @@
     position: relative;
     margin-bottom: 30px;
     border-radius: 8px;
+    height: 100%;
 }
 .timelineBox::before {
   content: attr(data-step);

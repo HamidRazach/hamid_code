@@ -16,15 +16,20 @@
 }
 
 .ecommerce_web_process h2 span {
-       color: rgb(244, 122, 31);
+    color: rgb(244, 122, 31);
 }
 
 .ecomm_process_box {
     height: 100%;
     padding: 30px 20px;
+    border-radius: 25px;
 }
 .ecom_box_icon {
     margin-bottom: 24px;
+}
+.ecom_box_icon i {
+    font-size: 50px;
+    color: rgb(244, 122, 31);
 }
 
 .ecomm_process_box h5 {

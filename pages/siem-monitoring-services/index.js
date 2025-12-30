@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Siem_servicesbannerData, Siem_servicesBrandData, Siem_serviceschannelData, Siem_servicesCraftData, Siem_servicesExpertData, Siem_servicesProductsData, Siem_servicesRewriteData, Siem_servicesWebsiteData, Siem_servicesWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { Siem_servicesbannerData, Siem_servicesBrandData, Siem_serviceschannelData, Siem_servicesCraftData, Siem_servicesExpertData, Siem_servicesProductsData, Siem_servicesRewriteData, Siem_servicesWebsiteData, Siem_servicesWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/siem-monitoring-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

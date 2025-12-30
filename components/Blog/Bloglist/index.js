@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./blog.module.scss";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { blogPosts } from "../../../constant/data";
+import { blogPosts } from "../../../constant/blog/blog-list";
 
 export default function BlogList() {
     const router = useRouter();

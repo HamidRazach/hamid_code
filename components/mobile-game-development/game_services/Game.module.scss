@@ -93,16 +93,14 @@
     transition: 0.2s linear;
     border: 1px solid #ccc;
     height: 100%;
+    border-radius: 25px;
 }
 .voice_service_main {
     align-items: center;
     display: flex;
     margin-bottom: 15px;
 }
-.voice_service_svg svg {
-        height: 55px;
-        width: auto;
-    }
+
 .voice_service_head {
     margin-left: 10px;
 }
@@ -135,11 +133,6 @@
     line-height: 40px;
   }
 
-
-  .voice_service_svg svg {
-    height: 50px;
-  }
-
   .voice_service_head h5 {
     font-size: 15px;
     line-height: 24px;
@@ -165,10 +158,6 @@
   .voice_service_head {
     margin-left: 0;
     margin-top: 10px;
-  }
-
-  .voice_service_svg svg {
-    height: 45px;
   }
 
   .voice_service_head h5 {
@@ -198,10 +187,6 @@
     align-items: flex-start;
   }
 
-  .voice_service_svg svg {
-    height: 40px;
-  }
-
   .voice_service_content p {
     font-size: 15px;
     line-height: 24px;
@@ -222,10 +207,6 @@
   .voice_service_main {
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .voice_service_svg svg {
-    height: 50px;
   }
 
   .voice_service_content p {

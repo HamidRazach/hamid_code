@@ -8,7 +8,7 @@ import ConsultingServices from "../../components/ConsultingServices/ConsultingSe
 import TrendingServices_temp from "../../components/TrendingServices/TrendingServices_temp";
 import OurClients from "../../components/Partners/OurClients";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
-import { ServicesData } from "../../constant/data";
+import { ServicesData } from "../../constant/services/our-service";
 
 
 const ServicePage = () => {

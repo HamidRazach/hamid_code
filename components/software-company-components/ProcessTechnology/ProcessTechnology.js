@@ -9,6 +9,7 @@ import {
 } from 'reactstrap';
 import TechnologySection from '../TechnologySection/TechnologySection';
 import Testimonial from '../Testimonial/Testimonial';
+import { Fade } from 'react-awesome-reveal';
 
 const FaqSection = (props) => {
 
@@ -26,6 +27,7 @@ const FaqSection = (props) => {
             <div className="container">
                 <div className="row align-items-center justify-content-lg-between">
                     <div className="col-lg-6">
+                        <Fade direction="down" triggerOnce>
                         <div className="heading_block">
                             <div className="heading_focus_text has_underline d-inline-flex">
                                 Working Process
@@ -34,6 +36,7 @@ const FaqSection = (props) => {
                                 Our <mark>Approach</mark>
                             </h2>
                         </div>
+                        </Fade>
                         <Accordion open={open} toggle={toggle} className="accordion" id="service_process_faq">
                             <AccordionItem className="accordion-item">
                                 <AccordionHeader targetId="1">
@@ -86,7 +89,7 @@ const FaqSection = (props) => {
                                 </AccordionBody>
                             </AccordionItem>
                         </Accordion>
-                    </div>
+                    </div>           
                     <div className="col-lg-5">
                         <Accordion open={open} toggle={toggle} className="accordion" id="service_process_faq">
                             <ul className="content_layer_group unordered_list_block text-center">
@@ -97,7 +100,7 @@ const FaqSection = (props) => {
                                 <li><AccordionHeader targetId="5"><span>Testing and QA</span></AccordionHeader></li>
                             </ul>
                         </Accordion>
-                    </div>
+                    </div>   
                 </div>
                 <TechnologySection/>
                 <Testimonial/>

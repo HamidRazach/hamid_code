@@ -2,9 +2,17 @@
 ================================================== */
 
 // Header Elements - Start
+// megamenu items click css start
+#company_submenu,
+#services_submenu {
+    pointer-events: none;
+}
+
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
+// megamenu items click css start
+
 .site_header {
 	top: 0;
 	left: 0;

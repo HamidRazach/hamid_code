@@ -1,3 +1,4 @@
+"use client";
 import React, { Fragment } from "react";
 import Head from "next/head";
 import ConnectExpert from "../../components/Connect_Experts";
@@ -19,7 +20,7 @@ import Awards_recognitions from "../../components/about_page/Awards_recognitions
 import Why_choose from "../../components/mobile-game-development/why_choose";
 import Partner_usa from "../../components/mobile-game-development/partner-usa";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { Mobile_gamebannerData } from "../../constant/data";
+import { Mobile_gamebannerData } from "../../constant/services/mobile-game-development";
 
 
 const Mobileapp = () => {

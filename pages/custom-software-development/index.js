@@ -15,7 +15,7 @@ import Techtrend from "../../components/Game_Changers";
 import DomainSoftware from "../../components/Domain_software";
 import Custom from "../../components/Custom_Software__Development";
 import Business_Operations from "../../components/Custom_business_operations";
-import { customServicesData } from "../../constant/data";
+import { customServicesData } from "../../constant/services/custom-software-development";
 
 const CustomSoftwareDevelopement = () => {
   return (

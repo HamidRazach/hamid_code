@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { CodeIgniter_developmentbannerData, CodeIgniter_developmentBrandData, CodeIgniter_developmentchannelData, CodeIgniter_developmentCraftData, CodeIgniter_developmentExpertData, CodeIgniter_developmentRewriteData, CodeIgniter_developmentWebsiteData, CodeIgniter_developmentWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { CodeIgniter_developmentbannerData, CodeIgniter_developmentBrandData, CodeIgniter_developmentchannelData, CodeIgniter_developmentCraftData, CodeIgniter_developmentExpertData, CodeIgniter_developmentRewriteData, CodeIgniter_developmentWebsiteData, CodeIgniter_developmentWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/codeIgniter-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

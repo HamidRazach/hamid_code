@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Arv_appbannerData, Arv_appBrandData, Arv_appchannelData, Arv_appCraftData, Arv_appExpertData, Arv_appProductsData, Arv_appRewriteData, Arv_appWebsiteData, Arv_appWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { Arv_appbannerData, Arv_appBrandData, Arv_appchannelData, Arv_appCraftData, Arv_appExpertData, Arv_appProductsData, Arv_appRewriteData, Arv_appWebsiteData, Arv_appWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/ar-vr-app-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

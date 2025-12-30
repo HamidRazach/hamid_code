@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./Our_commit.module.scss";
 import Link from "next/link";

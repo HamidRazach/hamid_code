@@ -4,7 +4,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdOutlineSchedule } from "react-icons/md";
-import Image from 'next/image'
 
 
 const ContactSection = (props) => {

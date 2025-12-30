@@ -2,10 +2,9 @@
 import Link from "next/link";
 import React from "react";
 import styles from "./Broaden_Business.module.scss";
-import { broadenBusinessData } from "../../../constant/data";
 
-export default function Boarden_Business() {
-  const { heading, subheading, description, technologies, button } = broadenBusinessData;
+export default function Broaden_Business({ data }) {
+  const { heading, subheading, description, technologies, button } = data;
 
   return (
     <div className={styles.technoloy_sec}>
@@ -17,9 +16,10 @@ export default function Boarden_Business() {
             </h2>
             <p>{description}</p>
           </div>
+
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-11 col-xxl-11 m-auto">
             <div className={styles.technology_main}>
-              {technologies.map((tech, index) => (
+              {technologies?.map((tech, index) => (
                 <div key={index} className={styles.technology_item}>
                   <div className={styles.svg_icon}>{tech.svg}</div>
                   <h6>{tech.title}</h6>
@@ -29,6 +29,7 @@ export default function Boarden_Business() {
             </div>
           </div>
         </div>
+
         <div className="row">
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 m-auto text-center mt-4">
             <Link className={styles.btn} href={button.href}>

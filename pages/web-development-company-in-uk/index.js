@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { ratingDevelopmentData, Web_app_development_in_ukbannerData, Web_app_development_in_ukBroadenBusinessData, Web_app_development_in_ukchannelData, Web_app_development_in_ukCountryStateData, Web_app_development_in_ukCraftData, Web_app_development_in_ukData, Web_app_development_in_ukExpertData, Web_app_development_in_ukGrowthData, Web_app_development_in_ukProductsData, Web_app_development_in_ukRewriteData, Web_app_development_in_uktechStackData, Web_app_development_in_ukWebflowDevelopmentData, Web_app_development_in_ukWebsiteData } from "../../constant/data";
+import { ratingDevelopmentData, Web_app_development_in_ukbannerData, Web_app_development_in_ukBroadenBusinessData, Web_app_development_in_ukchannelData, Web_app_development_in_ukCountryStateData, Web_app_development_in_ukCraftData, Web_app_development_in_ukData, Web_app_development_in_ukExpertData, Web_app_development_in_ukGrowthData, Web_app_development_in_ukProductsData, Web_app_development_in_ukRewriteData, Web_app_development_in_uktechStackData, Web_app_development_in_ukWebflowDevelopmentData, Web_app_development_in_ukWebsiteData } from "../../constant/services/web-development-company-in-uk";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Magento_channel from "../../components/magento-development-services/magento_channel";
 import Magento_expert from "../../components/magento-development-services/Magento_expert";

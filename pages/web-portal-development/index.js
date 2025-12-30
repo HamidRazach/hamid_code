@@ -12,7 +12,7 @@ import Portal_solution from "../../components/web-portal-development/Portal-solu
 import Portal_cloud from "../../components/web-portal-development/Portal_cloud";
 import Portal_committed from "../../components/web-portal-development/Portal_committed";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { webportalData } from "../../constant/data";
+import { webportalData } from "../../constant/services/web-portal-development";
 
 const Web_Portal = () => {
   return (

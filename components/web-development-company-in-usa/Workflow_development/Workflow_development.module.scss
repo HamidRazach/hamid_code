@@ -70,9 +70,9 @@
     top: 0;
 }
 
-.item_icon svg {
-    height: 35px;
-    width: auto;
+.item_icon i {
+    font-size: 35px;
+    color: #f47a1f;
 }
 
 .workflow_items p {
@@ -96,8 +96,8 @@
     color: #fff;
 }
 
-.workflow_items:hover .item_icon svg path {
-    fill: #fff;
+.workflow_items:hover .item_icon i {
+    color: #fff;
 }
 
 .btn {

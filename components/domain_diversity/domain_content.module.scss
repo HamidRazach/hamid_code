@@ -38,8 +38,9 @@
     vertical-align: middle;
 }
 
-.domain_diversity .domain_main .domain_item .domain_content svg {
-    height: 40px;
+.domain_diversity .domain_main .domain_item .domain_content i {
+    font-size: 52px;
+    color: #49515b;
 }
 
 .domain_diversity .domain_main .domain_item .domain_content h6 {
@@ -53,8 +54,8 @@
     color: #f47a1f;
 }
 
-.domain_diversity .domain_main .domain_item:hover .domain_content:hover svg path {
-    fill: #f47a1f;
+.domain_diversity .domain_main .domain_item:hover .domain_content:hover i {
+    color: #f47a1f;
 }
 
 .domain_content {

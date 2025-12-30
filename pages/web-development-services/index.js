@@ -11,7 +11,7 @@ import Growth from "../../components/Multi-Dimensional";
 import DevelopmentExpertise from "../../components/Development_Expertise";
 import DomainContent from "../../components/domain_diversity";
 import ConnectExpert from "../../components/Connect_Experts";
-import { webServicesData } from "../../constant/data";
+import { webServicesData } from "../../constant/services/web-development-services";
 import DevelopmentSolutions from "../../components/Purpose-Built";
 
 const Webservices = () => {

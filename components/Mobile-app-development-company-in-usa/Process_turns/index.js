@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./Process_turns.module.scss";
-import { Process_TurnsData } from "../../../constant/data"; // 👈 import your data file
+import { Process_TurnsData } from "../../../constant/services/mobile-app-development-company-in-usa"; // 👈 import your data file
 
 export default function Process_turn() {
   const [activeTab, setActiveTab] = useState(0);

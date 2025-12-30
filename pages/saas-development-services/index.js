@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Sass_developmentbannerData, Sass_developmentchannelData, Sass_developmentCounterData, Sass_developmentCraft_secData, Sass_developmentCraftData, Sass_developmentedicatedData, Sass_developmentExpertData, Sass_developmentMockupData, Sass_developmentpostData, Sass_developmentProcessData, Sass_developmentProductsData, Sass_developmentRobustData, Sass_developmenttaskData } from "../../constant/data";
+import { Sass_developmentbannerData, Sass_developmentchannelData, Sass_developmentCounterData, Sass_developmentCraft_secData, Sass_developmentCraftData, Sass_developmentedicatedData, Sass_developmentExpertData, Sass_developmentMockupData, Sass_developmentpostData, Sass_developmentProcessData, Sass_developmentProductsData, Sass_developmentRobustData, Sass_developmenttaskData } from "../../constant/services/saas-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Magento_channel from "../../components/magento-development-services/magento_channel";
 import Magento_expert from "../../components/magento-development-services/Magento_expert";

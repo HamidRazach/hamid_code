@@ -2,12 +2,11 @@
 import { useState } from "react";
 import Image from "next/image";
 import styles from "./Stack_use.module.scss";
-import { StackUseData } from "../../../constant/data";
 
-export default function Stack_use() {
-  const [activeTab, setActiveTab] = useState(StackUseData.tabs[0].id);
+export default function Stack_use({ data }) {
+  const [activeTab, setActiveTab] = useState(data.tabs[0].id);
 
-  const { sectionHeading, highlight, description, tabs, logos } = StackUseData;
+  const { sectionHeading, highlight, description, tabs, logos } = data;
 
   return (
     <section className={styles.health_features}>

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Mvp_developmentbannerData, Mvp_developmentchannelData, Mvp_developmentCounterData, Mvp_developmentCraft_secData, Mvp_developmentCraftData, Mvp_developmentdedicatedData, Mvp_developmentExpertData, Mvp_developmentMockupData, Mvp_developmentpostData, Mvp_developmentProcessData, Mvp_developmentProductsData, Mvp_developmentRobustData, Mvp_developmenttaskData } from "../../constant/data";
+import { Mvp_developmentbannerData, Mvp_developmentchannelData, Mvp_developmentCounterData, Mvp_developmentCraft_secData, Mvp_developmentCraftData, Mvp_developmentdedicatedData, Mvp_developmentExpertData, Mvp_developmentMockupData, Mvp_developmentpostData, Mvp_developmentProcessData, Mvp_developmentProductsData, Mvp_developmentRobustData, Mvp_developmenttaskData } from "../../constant/services/mvp-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Magento_channel from "../../components/magento-development-services/magento_channel";
 import Magento_expert from "../../components/magento-development-services/Magento_expert";

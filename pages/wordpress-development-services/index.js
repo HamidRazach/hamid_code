@@ -13,7 +13,7 @@ import Wordpress_Industry_usa from "../../components/wordpress-development-servi
 import Why_choose_usa from "../../components/wordpress-development-services/wordpress_why_choose_usa";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { wordpressbannerData } from "../../constant/data";
+import { wordpressbannerData } from "../../constant/services/wordpress-development-services";
 
 const Wordpress_development = () => {
   return (

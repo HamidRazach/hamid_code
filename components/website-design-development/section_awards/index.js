@@ -1,4 +1,5 @@
 import React from "react";
+"use client";
 import styles from "./section_awards.module.scss";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,34 +22,11 @@ export default function Section_awards() {
               surpassing expectations in our deliverables.
             </p>
             <div className={styles.start}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={241}
-                height={41}
-                viewBox="0 0 241 41"
-                fill="none"
-              >
-                <path
-                  d="M20.4608 0.682373L24.9511 14.502L39.4819 14.502L27.7262 23.043L32.2165 36.8625L20.4608 28.3216L8.70519 36.8625L13.1954 23.043L1.4398 14.502L15.9706 14.502L20.4608 0.682373Z"
-                  fill="#FFA800"
-                />
-                <path
-                  d="M70.4608 0.682617L74.9511 14.5022L89.4819 14.5022L77.7262 23.0432L82.2165 36.8628L70.4608 28.3218L58.7052 36.8628L63.1954 23.0432L51.4398 14.5022L65.9706 14.5022L70.4608 0.682617Z"
-                  fill="#FFA800"
-                />
-                <path
-                  d="M120.461 0.682617L124.951 14.5022L139.482 14.5022L127.726 23.0432L132.216 36.8628L120.461 28.3218L108.705 36.8628L113.195 23.0432L101.44 14.5022L115.971 14.5022L120.461 0.682617Z"
-                  fill="#FFA800"
-                />
-                <path
-                  d="M170.461 0.682617L174.951 14.5022L189.482 14.5022L177.726 23.0432L182.216 36.8628L170.461 28.3218L158.705 36.8628L163.195 23.0432L151.44 14.5022L165.971 14.5022L170.461 0.682617Z"
-                  fill="#FFA800"
-                />
-                <path
-                  d="M220.461 0.682617L224.951 14.5022L239.482 14.5022L227.726 23.0432L232.216 36.8628L220.461 28.3218L208.705 36.8628L213.195 23.0432L201.44 14.5022L215.971 14.5022L220.461 0.682617Z"
-                  fill="#FFA800"
-                />
-              </svg>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
+             <i class="fa-solid fa-star"></i>
               <ul className={styles.rating}>
                 <li>
                   <span>50</span> Reviews

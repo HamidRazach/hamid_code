@@ -1,4 +1,5 @@
 import React from "react";
+"use client";
 import styles from "./web_design_company.module.scss";
 import Link from "next/link";
 

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Figma_servicesbannerData, Figma_servicesBrandData, Figma_serviceschannelData, Figma_servicesCraftData, Figma_servicesExpertData, Figma_servicesProductData, Figma_servicesRewriteData, Figma_servicesWebsiteData, Figma_servicesWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { Figma_servicesbannerData, Figma_servicesBrandData, Figma_serviceschannelData, Figma_servicesCraftData, Figma_servicesExpertData, Figma_servicesProductData, Figma_servicesRewriteData, Figma_servicesWebsiteData, Figma_servicesWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/figma-ui-ux-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

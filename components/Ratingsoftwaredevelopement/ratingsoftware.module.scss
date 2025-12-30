@@ -41,6 +41,11 @@
 
 }
 
+.rating_svg i {
+    font-size: 80px;
+    color: #f47a1f;
+}
+
 /* ---------- For 1200px and below ---------- */
 @media (max-width: 1200px) {
     .rating_custom_software .rating_main .rating_item .rating_flex .rating_content h3 {
@@ -122,10 +127,11 @@
      .rating_custom_software .rating_main .rating_item {
         flex: 1 0 100%;
     }
-        .rating_svg svg {
-        width: 50px;
-        height: auto;
+
+   .rating_svg i {
+        font-size: 50px;
     }
+
     .rating_custom_software .rating_main .rating_item .rating_flex .rating_content p {
         font-size: 14px;
         line-height: 24px;

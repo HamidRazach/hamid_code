@@ -41,15 +41,6 @@ export default function Global_header() {
             Canada
           </li>
 
-          {/* Bahrain */}
-          <li
-            onMouseEnter={() => handleActivate("panel-bahrain")}
-            onClick={() => handleActivate("panel-bahrain")}
-            className={active === "panel-bahrain" ? styles.active : ""}
-          >
-            Bahrain
-          </li>
-
           {/* Germany */}
           <li
             onMouseEnter={() => handleActivate("panel-germany")}
@@ -66,6 +57,15 @@ export default function Global_header() {
             className={active === "panel-australia" ? styles.active : ""}
           >
             Australia
+          </li>
+
+           {/* Bahrain */}
+          <li
+            onMouseEnter={() => handleActivate("panel-bahrain")}
+            onClick={() => handleActivate("panel-bahrain")}
+            className={active === "panel-bahrain" ? styles.active : ""}
+          >
+            Bahrain
           </li>
 
           {/* Pakistan */}
@@ -322,30 +322,6 @@ export default function Global_header() {
             </section>
           )}
 
-          {/* Bahrain PANEL */}
-          {active === "panel-bahrain" && (
-            <section className={styles.panel}>
-              <h2>Bahrain</h2>
-              <p>
-                Modern websites and web applications built with fast-loading
-                responsive layouts.
-              </p>
-              <ul className={styles.grid}>
-                <li>
-                  <a href="#">Capital Governorate</a>
-                </li>
-                <li>
-                  <a href="#">Muharraq Governorate</a>
-                </li>
-                <li>
-                  <a href="#">Northern Governorate</a>
-                </li>
-                <li>
-                  <a href="#">Southern Governorate</a>
-                </li>
-              </ul>
-            </section>
-          )}
 
           {/* Germany PANEL */}
           {active === "panel-germany" && (
@@ -434,6 +410,31 @@ export default function Global_header() {
                 </li>
                 <li>
                   <a href="#">Tasmania</a>
+                </li>
+              </ul>
+            </section>
+          )}
+
+           {/* Bahrain PANEL */}
+          {active === "panel-bahrain" && (
+            <section className={styles.panel}>
+              <h2>Bahrain</h2>
+              <p>
+                Modern websites and web applications built with fast-loading
+                responsive layouts.
+              </p>
+              <ul className={styles.grid}>
+                <li>
+                  <a href="#">Capital Governorate</a>
+                </li>
+                <li>
+                  <a href="#">Muharraq Governorate</a>
+                </li>
+                <li>
+                  <a href="#">Northern Governorate</a>
+                </li>
+                <li>
+                  <a href="#">Southern Governorate</a>
                 </li>
               </ul>
             </section>

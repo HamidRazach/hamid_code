@@ -8,49 +8,49 @@ const posts = [
     category: "Web Development",
     title: "What is Web Development",
     link: "/blog/what-is-web-development",
-    author: "Malvika Lahiri",
+    author: "Mr. Saif",
     date: "september 29, 2025",
     authorImg:
-      "/images/blog/author.webp",
+      "/images/blog/authorsmen.png",
   },
   {
     category: "Mobile Application",
     title: "What is Mobile App Development",
     link: "/blog/what-is-mobile-application-development",
-    author: "Malvika Lahiri",
+    author: "Mr. Saif",
     date: "september 28, 2025",
     authorImg:
-      "/images/blog/authorsmen.webp",
+      "/images/blog/authorsmen.png",
   },
   {
     category: "Wordpress Developement",
     title:
       "What is Wordpress Development",
     link: "/blog/what-is-wordpress-development",
-    author: "Malvika Lahiri",
+    author: "Mr. Saif",
     date: "November 28, 2025",
     authorImg:
-      "/images/blog/author.webp",
+      "/images/blog/authorsmen.png",
   },
   {
     category: "Mobile Application",
     title:
       "What is Application Development? A Detailed Guide to 2025",
     link: "/blog/What-is-application-development-a-detailed-guide-to-2025",
-    author: "Malvika Lahiri",
+    author: "Mr. Saif",
     date: "November 25, 2025",
     authorImg:
-      "/images/blog/authorsmen.webp",
+      "/images/blog/authorsmen.png",
   },
   {
     category: "Web Developement",
     title:
       "Expert Web Development Company in USA",
-    link: "https://shortlistme.com/blog/post/understanding-and-addressing-skill-mismatch-challenge",
-    author: "Malvika Lahiri",
+    link: "Professional-Web-Development-Company",
+    author: "Mr. Saif",
     date: "september 26, 2025",
     authorImg:
-      "/images/blog/author.webp",
+      "/images/blog/authorsmen.png",
   },
   // 👉 add rest of posts in same format
 ];

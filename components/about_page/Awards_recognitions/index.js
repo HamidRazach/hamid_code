@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import styles from "./Awards_recognition.module.scss";
 import Link from "next/link";

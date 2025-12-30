@@ -4,35 +4,37 @@
     z-index: 0;
 }
 .section_awards h2 {
-        font-size: 33px;
-        line-height: 43px;
-        text-align: center;
-        color: rgb(49, 66, 82);
-        font-family: Poppins, sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: normal;
-        margin-bottom: 20px;
+    font-size: 33px;
+    line-height: 43px;
+    text-align: center;
+    color: rgb(49, 66, 82);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin-bottom: 20px;
 }
 .section_awards h2 span {
-      color: #f47a1f;
+    color: #f47a1f;
 }
 
 .section_awards p {
-      font-size: 16px;
-      line-height: 28px;
-      font-weight: 400;
-      margin-bottom: 20px;
-      font-family: Poppins, sans-serif;
-      font-style: normal;
-      color: #898989;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    color: #898989;
 }
 .section_awards .start {
     margin-top: 40px;
 }
-.section_awards .start svg {
-    height: 25px;
+.section_awards .start i {
+    font-size: 30px;
+    color: #ffa800;
     margin-bottom: 15px;
+    margin-right: 5px;
 }
 .start .rating {
     display: flex;

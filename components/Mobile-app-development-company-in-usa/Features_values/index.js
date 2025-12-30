@@ -2,14 +2,14 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./Features.module.scss";
-import { FeaturesValuesData } from "../../../constant/data";
 
-export default function Features_values() {
-  const { heading, subheading, description, button, features } = FeaturesValuesData;
+export default function Features_values({ data }) {
+  const { heading, subheading, description, button, features } = data;
 
   return (
     <section className={styles.industry_uk_app}>
       <div className="container">
+
         {/* Heading */}
         <div className="row">
           <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-12">
@@ -22,11 +22,11 @@ export default function Features_values() {
           </div>
         </div>
 
-        {/* Feature Items */}
+        {/* Features */}
         <div className="mt-3 row">
-          <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-12">
+          <div className="col-12">
             <div className={styles.industy_uk_main}>
-              {features.map((feature, index) => (
+              {features?.map((feature, index) => (
                 <div key={index} className={styles.industy_uk_item}>
                   <div className={styles.industry_uk_icon}>{feature.icon}</div>
                   <div className={styles.industry_uk_content}>
@@ -51,6 +51,7 @@ export default function Features_values() {
             </Link>
           </div>
         </div>
+
       </div>
     </section>
   );

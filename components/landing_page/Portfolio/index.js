@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./Portfolio.module.scss";
+import { Fade } from "react-awesome-reveal";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -200,8 +201,11 @@ const Portfolio = () => {
     <main className={styles.page_content}>
       <section className={styles.portfolio_section}>
         <div className="container">
+           <Fade direction="up" triggerOnce>
             <h2>Portfolio</h2>
+            </Fade>
           {/* filter tabs */}
+           <Fade direction="up" delay={120} triggerOnce>
           <div className={styles.filter_elements_nav}>
             <ul className={styles.unordered_list}>
               <li
@@ -230,11 +234,17 @@ const Portfolio = () => {
               </li>
             </ul>
           </div>
+          </Fade>
 
           {/* projects */}
           <div className="row">
-            {filteredProjects.map((project, prj) => (
+            {filteredProjects.map((project, prj, index) => (
               <div className="col-lg-6" key={prj}>
+                 <Fade
+                    direction="up"
+                    delay={index * 80}
+                    triggerOnce
+                  >
                 <div className={styles.portfolio_block}>
                   <div className={styles.portfolio_image}>
                     <Link
@@ -271,6 +281,7 @@ const Portfolio = () => {
                     </ul>
                   </div>
                 </div>
+                </Fade>
               </div>
             ))}
           </div>

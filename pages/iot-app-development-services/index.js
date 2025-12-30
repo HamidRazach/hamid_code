@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
 import Head from "next/head"; 
-import { IotbannerData, IoTBrandData, IotchannelData, IotCraftData, IotExpertData, IotProductsData, IoTRewriteData, IotWebsiteData, IotWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { IotbannerData, IoTBrandData, IotchannelData, IotCraftData, IotExpertData, IotProductsData, IoTRewriteData, IotWebsiteData, IotWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/iot-app-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

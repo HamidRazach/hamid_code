@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { software_development_companyData } from "../../constant/data";
+import { software_development_companyData } from "../../constant/services/software-development-company";
 import Header2 from "../../components/landing_page/header2";
 import About_us from "../../components/landing_page/about_us";
 import Services from "../../components/landing_page/Services";

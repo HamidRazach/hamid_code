@@ -1,7 +1,8 @@
+import React from "react";
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./digitize_sec.module.scss";
-import React from "react";
 
 export default function Digitize_sec() {
   return (

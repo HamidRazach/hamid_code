@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 import BlogPostPage from "../../../components/Blog/Mobile_application_development";
-import { blogPosts } from "../../../constant/data";
+import { blogPosts } from "../../../constant/blog/blog-list";
 
 export default function BlogDetail() {
   const router = useRouter();

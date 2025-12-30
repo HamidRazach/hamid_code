@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Startup_servicesbannerData, Startup_servicesBrandData, Startup_serviceschannelData, Startup_servicesCraftData, Startup_servicesExpertData, Startup_servicesProductsData, Startup_servicesRewriteData, Startup_servicesWebsiteData, Startup_servicesWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { Startup_servicesbannerData, Startup_servicesBrandData, Startup_serviceschannelData, Startup_servicesCraftData, Startup_servicesExpertData, Startup_servicesProductsData, Startup_servicesRewriteData, Startup_servicesWebsiteData, Startup_servicesWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/startup-consulting-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

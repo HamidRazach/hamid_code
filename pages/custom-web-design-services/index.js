@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Custom_web_designbannerData, Custom_web_designchannelData, Custom_web_designCounterData, Custom_web_designCraft_secData, Custom_web_designCraftData, Custom_web_designedicatedData, Custom_web_designExpertData, Custom_web_designMockupData, Custom_web_designpostData, Custom_web_designProcessData, Custom_web_designProductsData, Custom_web_designRobustData, Custom_web_designtaskData } from "../../constant/data";
+import { Custom_web_designbannerData, Custom_web_designchannelData, Custom_web_designCounterData, Custom_web_designCraft_secData, Custom_web_designCraftData, Custom_web_designedicatedData, Custom_web_designExpertData, Custom_web_designMockupData, Custom_web_designpostData, Custom_web_designProcessData, Custom_web_designProductsData, Custom_web_designRobustData, Custom_web_designtaskData } from "../../constant/services/custom-web-design-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Magento_channel from "../../components/magento-development-services/magento_channel";
 import Magento_expert from "../../components/magento-development-services/Magento_expert";

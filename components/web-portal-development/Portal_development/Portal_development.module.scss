@@ -52,9 +52,9 @@
     font-family: Poppins, sans-serif;
     font-style: normal;
 }
-.ecom_box_icon svg {
-    height: 40px;
-    width: auto;
+.ecom_box_icon i {
+    font-size: 40px;
+    color: #f47a1f;
 }
 
 .btn {
@@ -152,8 +152,8 @@
   .ecomm_box_flex {
     align-items: flex-start;
   }
-  .ecom_box_icon svg {
-    height: 35px;
+  .ecom_box_icon i {
+    font-size: 35px;
   }
 }
 
@@ -180,7 +180,7 @@
     font-size: 14px;
     line-height: 24px;
   }
-  .ecom_box_icon svg {
+  .ecom_box_icon i {
     height: 30px;
   }
 

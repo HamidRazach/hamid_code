@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { CountryStateData, ratingDevelopmentData, techStackData, Web_app_development_in_usabannerData, Web_app_development_in_usaBroadenBusinessData, Web_app_development_in_usachannelData, Web_app_development_in_usaCraftData, Web_app_development_in_usaData, Web_app_development_in_usaExpertData, Web_app_development_in_usaGrowthData, Web_app_development_in_usaProductsData, Web_app_development_in_usaRewriteData, Web_app_development_in_usaWebflowDevelopmentData, Web_app_development_in_usaWebsiteData } from "../../constant/data";
+import { CountryStateData, ratingDevelopmentData, techStackData, Web_app_development_in_usabannerData, Web_app_development_in_usaBroadenBusinessData, Web_app_development_in_usachannelData, Web_app_development_in_usaCraftData, Web_app_development_in_usaData, Web_app_development_in_usaExpertData, Web_app_development_in_usaGrowthData, Web_app_development_in_usaProductsData, Web_app_development_in_usaRewriteData, Web_app_development_in_usaWebflowDevelopmentData, Web_app_development_in_usaWebsiteData } from "../../constant/services/web-development-company-in-usa";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Magento_channel from "../../components/magento-development-services/magento_channel";
 import Magento_expert from "../../components/magento-development-services/Magento_expert";

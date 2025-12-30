@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Responsive_web_designbannerData, Responsive_web_designBrandData, Responsive_web_designchannelData, Responsive_web_designCraftData, Responsive_web_designExpertData, Responsive_web_designProductsData, Responsive_web_designRewriteData, Responsive_web_designWebsiteData, Responsive_web_designWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { Responsive_web_designbannerData, Responsive_web_designBrandData, Responsive_web_designchannelData, Responsive_web_designCraftData, Responsive_web_designExpertData, Responsive_web_designProductsData, Responsive_web_designRewriteData, Responsive_web_designWebsiteData, Responsive_web_designWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/responsive-web-design-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

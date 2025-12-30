@@ -15,7 +15,7 @@ import Measurable_marketing from "../../components/Measurable_marketing";
 import Agency_driven from "../../components/Driven_Agency";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { DigitalmarketingData } from "../../constant/data";
+import { DigitalmarketingData } from "../../constant/services/digital-marketing-services";
 
 const Digitalmarketing = () => {
   return (

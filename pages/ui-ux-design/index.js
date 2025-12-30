@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import Head from 'next/head';
 import WebServicesBanner from '../../components/WebBanner/WebServicesBanner';
-import { UI_UX_DesignData } from '../../constant/data';
+import { UI_UX_DesignData } from '../../constant/services/ui-ux-design';
 import UX_Design from '../../components/ui-ux-design/UX_Design_Services';
 import Creative_design from '../../components/ui-ux-design/Creative_Websites';
 import Freature_wrapper from '../../components/ui-ux-design/featured_wrapper';

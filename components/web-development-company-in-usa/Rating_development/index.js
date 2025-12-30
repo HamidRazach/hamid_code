@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./Rating_development.module.scss";
 import Image from "next/image";
 import CountUp from "react-countup";
-import { ratingDevelopmentData } from "../../../constant/data"; // ✅ imported data
+import { ratingDevelopmentData } from "../../../constant/services/web-development-company-in-canada"; // ✅ imported data
 
 export default function Rating_development() {
   return (

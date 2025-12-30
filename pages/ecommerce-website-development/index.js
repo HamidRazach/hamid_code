@@ -17,7 +17,7 @@ import Ecommerce_website from "../../components/Ecommerce-website-development/Ec
 import Ecommerce_Domain from "../../components/Ecommerce-website-development/Ecommerence-domain";
 import Ecommerce_web_development from "../../components/Ecommerce-website-development/ecommerce_web_development";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { EcommerceData } from "../../constant/data";
+import { EcommerceData } from "../../constant/services/ecommerce-website-development";
 
 const Ecommerence = () => {
   return (

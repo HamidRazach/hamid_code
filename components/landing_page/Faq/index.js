@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FiChevronDown } from "react-icons/fi"; // arrow import
 import styles from "./Faq.module.scss";
+import { Fade } from "react-awesome-reveal";
 
 const faqData = [
   {
@@ -61,11 +62,19 @@ export default function Faq() {
   return (
     <section className={styles.faqSection}>
       <div className={styles.container}>
+        <Fade direction="up" triggerOnce>
         <h2 className={styles.title}>
           FAQ & <span className={styles.support}>Support</span>
         </h2>
+        </Fade>
 
         {faqData.map((faq, index) => (
+           <Fade
+              key={faq.id}
+              direction="up"
+              delay={index * 80}   // 🔥 each FAQ delayed
+              triggerOnce
+            >
           <div
             key={faq.id}
             className={`${styles.faqItem} ${
@@ -100,6 +109,7 @@ export default function Faq() {
               </div>
             </div>
           </div>
+          </Fade>
         ))}
       </div>
     </section>

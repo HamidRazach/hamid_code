@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import MobileMenu from "../MobileMenu/MobileMenu";
@@ -7,7 +8,7 @@ import HeaderAnimate from "./HeaderAnimate";
 import Global_header from "../global";
 
 const Header = (props) => {
-   // mega menu close code start
+  // mega menu close code start
   useEffect(() => {
   const handleClick = (e) => {
     const link = e.target.closest(".mega_menu_wrapper a");
@@ -471,7 +472,7 @@ const Header = (props) => {
                                         </div>
                                     </div>
                                   </div>
-                                  <div className="col">
+                                  {/* <div className="col">
                                     <div className="drop_menu">
                                       <span className="h3">
                                         {" "}
@@ -508,7 +509,7 @@ const Header = (props) => {
                                         </Link>
                                       </div>
                                     </div>
-                                  </div>
+                                  </div> */}
                                 </div>
                               </div>
                             </div>
@@ -706,7 +707,7 @@ const Header = (props) => {
                                       <span className="h3">
                                         <Link href="#">
                                         Hire Mobile App Developers
-                                        </Link>
+                                       </Link>
                                       </span>
                                       <div className="anchor_div">
                                         <Link href="#">
@@ -743,7 +744,7 @@ const Header = (props) => {
                                   <div className="col-xs-12 col-sm-3 col-md-3">
                                     <div className="drop_menu">
                                       <span className="h3">
-                                          <Link href="#">
+                                        <Link href="#">
                                         Hire Web Developers
                                         </Link>
                                       </span>
@@ -782,7 +783,7 @@ const Header = (props) => {
                                   <div className="col-xs-12 col-sm-3 col-md-3">
                                     <div className="drop_menu">
                                       <span className="h3">
-                                          <Link href="#">
+                                        <Link href="#">
                                         Hire Game Developers
                                         </Link>
                                       </span>
@@ -864,12 +865,13 @@ const Header = (props) => {
                                 <div className="row">
                                   <div className="col-xs-12 col-sm-3 col-md-3">
                                     <div className="drop_menu">
+                                      <Link href="#">
                                         <span className="h3">
                                           <Link href="#">
                                           Hire Front-End Developers
-                                           </Link>
+                                          </Link>
                                         </span>
-                                     
+                                      </Link>
                                       <div className="anchor_div">
                                         <Link href="#">
                                           <MdKeyboardDoubleArrowRight /> Hire
@@ -907,7 +909,7 @@ const Header = (props) => {
                                         <span className="h3">
                                           <Link href="#">
                                           Hire Back-End Developers
-                                          </Link>
+                                            </Link>
                                         </span>
                                       <div className="anchor_div">
                                         <Link href="#">
@@ -944,10 +946,10 @@ const Header = (props) => {
                                   <div className="col-xs-12 col-sm-3 col-md-3">
                                     <div className="drop_menu">
                                       <span className="h3">
-                                          <Link href="#">
-                                          Hire Designers
-                                          </Link>
-                                      </span>
+                                        <Link href="#">
+                                        Hire Designers
+                                        </Link>
+                                        </span>
                                       <div className="anchor_div">
                                         <Link href="#">
                                           <MdKeyboardDoubleArrowRight /> Hire
@@ -983,7 +985,7 @@ const Header = (props) => {
                                   <div className="col-xs-12 col-sm-3 col-md-3">
                                     <div className="drop_menu">
                                       <span className="h3">
-                                         <Link href="#">
+                                        <Link href="#">
                                         Cloud Technologies
                                         </Link>
                                       </span>
@@ -1026,7 +1028,128 @@ const Header = (props) => {
                         className="dropdown-menu mega_menu_wrapper"
                         aria-labelledby="company_submenu"
                       >
-                      <Global_header />
+                        <Global_header />
+                        {/* <div className="container">
+                          <div className="row">
+                            <div className="col-lg-9">
+                              <div className="mega_menu">
+                                <div className="container">
+                                  <div className="row">
+                                    <div className="col-xs-12 col-sm-3 col-md-3">
+                                      <div className="drop_menu">
+                                        <Link href="#">
+                                        <span className="h3">
+                                          Services Area
+                                        </span>
+                                        </Link>
+                                        <div className="anchor_div">
+                                          <Link href="#">
+                                            <MdKeyboardDoubleArrowRight /> United State
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="#">
+                                            <MdKeyboardDoubleArrowRight /> United kingdom
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="#">
+                                            <MdKeyboardDoubleArrowRight />{" "}
+                                           Canada
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="#">
+                                            <MdKeyboardDoubleArrowRight /> Bahrain
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="#">
+                                            <MdKeyboardDoubleArrowRight /> Australia
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="#">
+                                            <MdKeyboardDoubleArrowRight /> Pakistan
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-3 col-md-3">
+                                      <div className="drop_menu">
+                                        <span className="h3">
+                                         United States of America
+                                        </span>
+                                        <div className="anchor_div">
+                                          <Link href="mobile-app-development-company-in-usa">
+                                            <MdKeyboardDoubleArrowRight />{" "}
+                                            Mobile App Dev Co. (USA)
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="web-development-company-in-usa">
+                                            <MdKeyboardDoubleArrowRight />
+                                            Web Dev Co. USA 
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-xs-12 col-sm-3 col-md-3">
+                                      <div className="drop_menu">
+                                        <span className="h3">
+                                          United Kingdom 🇬🇧
+                                        </span>
+                                        <div className="anchor_div">
+                                          <Link href="mobile-app-development-company-in-uk">
+                                            <MdKeyboardDoubleArrowRight />{" "}
+                                             Mobile App Dev Co. UK
+                                          </Link>
+                                        </div>
+                                        <div className="anchor_div">
+                                          <Link href="web-development-company-in-uk">
+                                            <MdKeyboardDoubleArrowRight /> 
+                                            Web Dev Co. UK
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div className="col-lg-3">
+                               <div className="site_author bg-primary">
+                                <div className="author_box">
+                                  <div className="author_image">
+                                    <Image
+                                      src="/images/avatar/ahmad.jpeg"
+                                      alt="Author"
+                                       style={{
+                                          borderRadius: "5px",
+                                          height: "110px",
+                                          width: "90px",
+                                          objectFit: "cover",
+                                        }}
+                                      width={1600}
+                                      height={1600}
+                                    />
+                                  </div>
+                                  <div className="author_box_content">
+                                    <h3 className="author_name text-white">
+                                      Muhammad Ahmad Raza
+                                    </h3>
+                                    <span className="author_designation text-white">
+                                      CEO At Digitalmindson
+                                    </span>
+                                  </div>
+                                </div>
+                                <p className="mb-0 text-white">
+                                 As CEO, I lead a team of tech experts in web, mobile app development, and digital marketing. We craft tailored solutions to drive growth and success for clients across industries, shaping the future of technology.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div> */}
                       </div>
                     </li>
 

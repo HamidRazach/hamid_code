@@ -26,13 +26,7 @@ export default function Mobile_app_innovations() {
             <div className={styles.spec_services_box}>
               <div className={styles.spec_services_img}>
                 <div className={styles.spec_services_img}>
-                  <Image
-                    src="/images/mobile-app-development/iot_icon.webp"
-                    alt="Internet of Things (IoT) icon"
-                    loading="lazy"
-                    width={70}
-                    height={70}
-                  />
+                 <i class="fas fa-wifi"></i>
                 </div>
               </div>
               <div className={styles.spec_services_head}>
@@ -52,13 +46,8 @@ export default function Mobile_app_innovations() {
             <div className={styles.spec_services_box}>
               <div className={styles.spec_services_img}>
                 <div className={styles.spec_services_img}>
-                  <Image
-                    src="/images/mobile-app-development/ar_vr_icon.webp"
-                    alt="AR/VR technology icon"
-                    loading="lazy"
-                    width={70}
-                    height={70}
-                  />
+                 <i class="fas fa-vr-cardboard"></i>
+
                 </div>
               </div>
               <div className={styles.spec_services_head}>
@@ -78,13 +67,7 @@ export default function Mobile_app_innovations() {
             <div className={styles.spec_services_box}>
               <div className={styles.spec_services_img}>
                 <div className={styles.spec_services_img}>
-                  <Image
-                    src="/images/mobile-app-development/five_g_icon.webp"
-                    alt="5G technology representation"
-                    loading="lazy"
-                    width={70}
-                    height={70}
-                  />
+                <i class="fas fa-signal"></i>
                 </div>
               </div>
               <div className={styles.spec_services_head}>
@@ -104,13 +87,7 @@ export default function Mobile_app_innovations() {
           <div className="mb-3 mb-md-4 mb-xl-0 col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-12">
             <div className={styles.spec_services_box}>
               <div className={styles.spec_services_img}>
-                <Image
-                  src="/images/mobile-app-development/ai_icon.webp"
-                  alt="mobile-app-development-ai-icon"
-                  loading="lazy"
-                  width={70}
-                  height={70}
-                />
+               <i class="fas fa-microchip"></i>
               </div>
               <div className={styles.spec_services_head}>
                 <h5>AI &amp; ML</h5>
@@ -129,13 +106,7 @@ export default function Mobile_app_innovations() {
           <div className="mb-3 mb-md-0 col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-12">
             <div className={styles.spec_services_box}>
               <div className={styles.spec_services_img}>
-                <Image
-                  src="/images/mobile-app-development/blockchain_icon.webp"
-                  alt="Blockchain technology icon"
-                  loading="lazy"
-                  width={70}
-                  height={70}
-                />
+              <i class="fas fa-cubes"></i>
               </div>
               <div className={styles.spec_services_head}>
                 <h5>Blockchain</h5>
@@ -154,13 +125,8 @@ export default function Mobile_app_innovations() {
           <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-12">
             <div className={styles.spec_services_box}>
               <div className={styles.spec_services_img}>
-                <Image
-                  src="/images/mobile-app-development/cloud_icon.webp"
-                  alt="Cloud computing technology icon"
-                  loading="lazy"
-                  width={70}
-                  height={70}
-                />
+                <i class="fas fa-cloud"></i>
+
               </div>
               <div className={styles.spec_services_head}>
                 <h5>Cloud Computing Integration</h5>

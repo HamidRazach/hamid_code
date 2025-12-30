@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 import styles from "./Testimonial.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 const reviewsData = [
    {
@@ -99,6 +100,7 @@ export default function GoogleReviews() {
   return (
     <section className={styles.reviewsWrapper}>
       {/* Header */}
+      <Fade direction="up" triggerOnce>
       <div className={styles.header}>
         <div className={styles.goolge_head}>
           <h2>
@@ -127,6 +129,7 @@ export default function GoogleReviews() {
           </span>
         </Link>
       </div>
+      </Fade>
 
       {/* ✅ Swiper Slider */}
       <Swiper

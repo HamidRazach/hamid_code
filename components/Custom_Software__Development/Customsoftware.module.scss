@@ -67,7 +67,10 @@
     line-height: 30px;
     text-align: center;
 }
-
+.iconBox i {
+    color: #fff;
+    font-size: 35px;
+}
 
 /* Large screens (≤ 1200px) */
 @media (max-width: 1200px) {

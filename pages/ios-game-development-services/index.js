@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Head from "next/head";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
 import ConnectExpert from "../../components/Connect_Experts";
-import { Ios_gamebannerData, Ios_gameBrandData, Ios_gamechannelData, Ios_gameCraftData, Ios_gameExpertData, Ios_gameProductsData, Ios_gameRewriteData, Ios_gameWebsiteData, Ios_gameWhyChooseData, woocomerenceTestimonialData } from "../../constant/data";
+import { Ios_gamebannerData, Ios_gameBrandData, Ios_gamechannelData, Ios_gameCraftData, Ios_gameExpertData, Ios_gameProductsData, Ios_gameRewriteData, Ios_gameWebsiteData, Ios_gameWhyChooseData, woocomerenceTestimonialData } from "../../constant/services/ios-game-development-services";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import Shopify_testimonial from "../../components/shopify-development-services/shopify_testmonial";
 import Magento_channel from "../../components/magento-development-services/magento_channel";

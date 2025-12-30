@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Front-End-Development.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import { FrontendRewriteData } from "../../../constant/data";
+import { FrontendRewriteData } from "../../../constant/services/front-end-development-services";
 
 export default function Frontend_rewrite() {
   return (

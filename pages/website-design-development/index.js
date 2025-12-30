@@ -1,10 +1,11 @@
+"use client";
 import React, { Fragment } from "react";
 import Head from "next/head";
 import ConnectExpert from "../../components/Connect_Experts";
 import Awards_recognitions from "../../components/about_page/Awards_recognitions";
 import FaqSection from "../../components/software-company-components/FaqSection/FaqSection";
 import WebServicesBanner from "../../components/WebBanner/WebServicesBanner";
-import { webSiteData } from "../../constant/data";
+import { webSiteData } from "../../constant/services/website-design-development";
 import Trustedlogo from "../../components/Trustedtop_brands";
 import Web_Design_Company from "../../components/website-design-development/web_design_company";
 import Section_awards from "../../components/website-design-development/section_awards";

@@ -3,14 +3,14 @@
     align-items: center;
     display: flex;
     height: 100px;
-    justify-content: space-between;
-    margin-top: 10px;
 	position: relative;
 }
 .feature-list {
     align-items: center;
     display: flex;
 	flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 60px;
 }
 .feat .feat-wrap .title {
     color: #fff;
@@ -20,9 +20,9 @@
     line-height: 1.2;
 }
 .feat-wrap:before {
-    border-right: 2px solid #f47a1f;
+    border-right: 5px solid #f47a1f;
     content: "";
-    height: 46px;
+    height: 40px;
     position: absolute;
     right: 0;
 	left: 150px;
@@ -117,12 +117,19 @@
     .feat .feat-wrap .title {
         font-size: 18px;
     }
+
+    .feat-wrap:before {
+       left: 140px;
+   }
 }
 
 /* ==============================
    Tablets (<= 992px)
 ============================== */
 @media (max-width: 992px) {
+    .feature-list {
+        padding-left: 0px;
+    }
     .software_company_hero_section h1 {
 		letter-spacing: normal;
         font-size: 40px;
@@ -164,6 +171,9 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    .software_company_hero_section .step_list {
+        margin-left: 12px;
+    }
 }
 
 /* ==============================
@@ -193,5 +203,9 @@
     }
     .hotline_block strong {
         font-size: 14px;
+    }
+    .featured_img img {
+        width: 100%;
+        height: auto;
     }
 }
